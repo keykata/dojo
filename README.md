@@ -440,7 +440,6 @@ Click the black triangle to toggle the Ctrl ⌃ keyboard customizations table
 | `Enter`     | `Ctrl` when pressed with other keys, `Enter` when pressed alone    | [Change return to control](https://ke-complex-modifications.pqrs.org/#return_to_ctrl)        | `Ctrl` when pressed with other keys, `Enter` when pressed alone    |
 | `Ctrl d`    | `Delete_Forward`                                                   | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl h`    | `Delete_or_Backspace`                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl h`    | `Delete_or_Backspace`                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl i`    | `Tab`                                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl [`    | `Escape`                                                           | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl m`    | `Return_or_Enter`                                                  | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
@@ -467,39 +466,39 @@ Interestingly, `Ctrl y` seems to work in Finder, TextEdit, and Chrome, but not S
 Click the black triangle to toggle the Ctrl ⌃ keymap table
 </summary>
 
-| Keybinding   | Action and link to lesson                                                                          | Emacs              | Shell              | MacOS              | Vim                |
-| -----------  | --------------------------------------                                                             | ------             | ------             | ------             | ----               |
+| Keybinding   | Action and link to lesson                                                                | Emacs              | Shell              | MacOS              | Vim                |
+| -----------  | --------------------------------------                                                   | ------             | ------             | ------             | ----               |
 | `Ctrl a`     | [Move to start of current line](kata/01_ctrl-a-and-ctrl-e_move-to-line-start-and-end.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl b`     | [Move left one character](kata/02_ctrl-b-and-ctrl-f_move-left-and-right.md)                                                                            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl c`     | Cancel                                                                                             | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl d`     | [Delete right one character](kata/03_ctrl-h-and-ctrl-d_delete-left-and-right.md)                                                                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl b`     | [Move left one character](kata/02_ctrl-b-and-ctrl-f_move-left-and-right.md)              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl c`     | Cancel                                                                                   | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl d`     | [Delete right one character](kata/03_ctrl-h-and-ctrl-d_delete-left-and-right.md)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
 | `Ctrl e`     | [Move to end of current line](kata/01_ctrl-a-and-ctrl-e_move-to-line-start-and-end.md)   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl f`     | [Move right one character](kata/02_ctrl-b-and-ctrl-f_move-left-and-right.md)                                                                                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl g`     | Cancel                                                                                             | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| `Ctrl h`     | [Delete left](kata/03_ctrl-h-and-ctrl-d_delete-left-and-right.md)                                                                                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| `Ctrl i`     | Indent                                                                                             | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl j`     | Newline / Confirm                                                                                  | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl k`     | Kill to line end                                                                                   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| `Ctrl l`     | Clear screen                                                                                       | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl m`     | Newline / Confirm                                                                                  | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl n`     | Down / Next                                                                                        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl o`     | Newline / Confirm                                                                                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl p`     | Down / Previous                                                                                    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| `Ctrl q`     | Insert literally                                                                                   | :x:                | :x:                | :x:                | :white_check_mark: |
-| `Ctrl r`     | Reverse Search                                                                                     | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl s`     | Vimac Scroll mode<sup>[1](#forward-search)</sup>                                                   | :white_check_mark: | :x:                | :x:                | :x:                |
-| `Ctrl t`     | Transpose characters                                                                               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl u`     | Kill to line start                                                                                 | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl v`     | Insert literally<sup>[2](#page-down)</sup>                                                         | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl w`     | Kill previous word                                                                                 | :white_check_mark: | :x:                | :x:                | :x:                |
-| `Ctrl x`     | Prefix for chord bindings                                                                          | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl y`     | Yank / paste from killring                                                                         | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| `Ctrl z`     | Put process in background                                                                          | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl /`     | Undo                                                                                               | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| `Ctrl _`     | Undo                                                                                               | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| `Ctrl \`     | Toggle input method                                                                                | :white_check_mark: | :x:                | :x:                | :x:                |
-| `Ctrl ]`     | Find next character<sup>[3](#cancel-recursive-edit)</sup>                                          | :white_check_mark: | :x:                | :x:                | :x:                |
-| `Ctrl Space` | Vimac hint mode<sup>[4](#set-mark)</sup>                                                           | :x:                | :x:                | :x:                | :x:                |
+| `Ctrl f`     | [Move right one character](kata/02_ctrl-b-and-ctrl-f_move-left-and-right.md)             | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl g`     | Cancel                                                                                   | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| `Ctrl h`     | [Delete left](kata/03_ctrl-h-and-ctrl-d_delete-left-and-right.md)                        | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| `Ctrl i`     | Indent                                                                                   | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl j`     | Newline / Confirm                                                                        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl k`     | Kill to line end                                                                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| `Ctrl l`     | Clear screen                                                                             | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl m`     | Newline / Confirm                                                                        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl n`     | Down / Next                                                                              | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl o`     | Newline / Confirm                                                                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl p`     | Down / Previous                                                                          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| `Ctrl q`     | Insert literally                                                                         | :x:                | :x:                | :x:                | :white_check_mark: |
+| `Ctrl r`     | Reverse Search                                                                           | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl s`     | Vimac Scroll mode<sup>[1](#forward-search)</sup>                                         | :white_check_mark: | :x:                | :x:                | :x:                |
+| `Ctrl t`     | Transpose characters                                                                     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl u`     | Kill to line start                                                                       | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl v`     | Insert literally<sup>[2](#page-down)</sup>                                               | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl w`     | Kill previous word                                                                       | :white_check_mark: | :x:                | :x:                | :x:                |
+| `Ctrl x`     | Prefix for chord bindings                                                                | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl y`     | Yank / paste from killring                                                               | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| `Ctrl z`     | Put process in background                                                                | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl /`     | Undo                                                                                     | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| `Ctrl _`     | Undo                                                                                     | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| `Ctrl \`     | Toggle input method                                                                      | :white_check_mark: | :x:                | :x:                | :x:                |
+| `Ctrl ]`     | Find next character<sup>[3](#cancel-recursive-edit)</sup>                                | :white_check_mark: | :x:                | :x:                | :x:                |
+| `Ctrl Space` | Vimac hint mode<sup>[4](#set-mark)</sup>                                                 | :x:                | :x:                | :x:                | :x:                |
 
 </details>
 
@@ -725,7 +724,6 @@ Click the black triangle to toggle the Karabiner keyboard customization table
 | `Caps Lock` | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  | [Change caps_lock key (rev 4)](https://ke-complex-modifications.pqrs.org/#caps_lock)         | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  |
 | `Enter`     | `Ctrl` when pressed with other keys, `Enter` when pressed alone    | [Change return to control](https://ke-complex-modifications.pqrs.org/#return_to_ctrl)        | `Ctrl` when pressed with other keys, `Enter` when pressed alone    |
 | `Ctrl d`    | `Delete_Forward`                                                   | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl h`    | `Delete_or_Backspace`                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl h`    | `Delete_or_Backspace`                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl i`    | `Tab`                                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl [`    | `Escape`                                                           | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
