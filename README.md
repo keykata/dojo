@@ -1,7 +1,6 @@
 ![keykata gif](https://raw.githubusercontent.com/keykata/dojo/main/images/ctrl-a_ctrl-d_ctrl-e_ctrl-h.gif)
 
 # KeyKata
-
 Train your fingers to
 - Avoid repetitive stress injury
 - Boost your productivity
@@ -30,6 +29,36 @@ I recommend starting with the following three kata:
 1. [Move to start and end of current line with ctrl a and ctrl e](kata/01_ctrl-a-and-ctrl-e_move-to-line-start-and-end.md)
 2. [Move left and right with ctrl b and ctrl f](kata/02_ctrl-b-and-ctrl-f_move-left-and-right.md)
 3. [Delete left and right with ctrl h and ctrl d](kata/03_ctrl-h-and-ctrl-d_delete-left-and-right.md)
+
+<details>
+<summary>
+Click the black triangle to see the suggested kata order
+</summary>
+
+| Keybinding                                                                                             | Description                                                                 |
+| -----------                                                                                            | ------------                                                                |
+| [`ctrl a`, `ctrl e`](kata/01_ctrl-a_ctrl-e.md)                                                         | Move to line start/end                                                      |
+| [`alt a`, `alt e`](kata/02_alt-a_alt-e.md)                                                             | Move to sentence start/end                                                  |
+| [`ctrl b`, `ctrl f`](kata/03_ctrl-b_ctrl-f.md)                                                         | Move left/right                                                             |
+| [`alt b`, `alt f`](kata/04_alt-b_alt-f.md)                                                             | Move word start/end                                                         |
+| [`ctrl c`, `ctrl l`, `ctrl u`](kata/05_ctrl-c_ctrl-l_ctrl-u.md)                                        | Cancel, redraw screen, delete to line start                                 |
+| [`alt c`, `alt l`, `alt u`](kata/06_alt-c_alt-l_alt-u.md)                                              | Capitalize, lowercase, uppercase word                                       |
+| [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`](kata/07_ctrl-d_ctrl-h_ctrl-w_ctrl-delete.md)             | Delete left/left/right/word start                                           |
+| [`alt d`, `alt delete`, `alt h`, `alt w`](kata/08_alt-d_alt-h_alt-w_alt-delete.md)                     | Delete word end/start and delete/save region                                |
+| [`ctrl g`, `ctrl r`, `ctrl s`](kata/09_ctrl-g_ctrl-r_ctrl-s.md)                                        | Cancel, reverse search, search                                              |
+| [`alt g`, `alt r`, `alt s`](kata/10_alt-g_alt-r_alt-s.md)                                              | Move prefix, revert line or top/middle/bottom, search prefix                |
+| [`ctrl i`, `ctrl n`, `ctrl p`](kata/11_ctrl-i_ctrl-n_ctrl-p.md)                                        | Indent/complete, next, previous down                                        |
+| [`alt i`, `alt n`, `alt p`](kata/12_alt-i_alt-n_alt-p.md)                                              | Indent, none, none                                                          |
+| [`ctrl j`, `ctrl m`, `ctrl o`](kata/13_ctrl-j_ctrl-m_ctrl-o.md)                                        | Accept/new line, accept/new line, accept/new line                           |
+| [`alt j`, `alt m`, `alt o`](kata/14_alt-j_alt-m_alt-o.md)                                              | Accept/new line, back to indentation, format prefix                         |
+| [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](kata/15_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md) | Kill to line end, paste from kill ring, undo, undo                          |
+| [`alt k`, `alt y`, `alt dash`, `alt backslash`](kata/16_alt-k_alt-y_alt-dash_alt-backslash.md)         | Kill to sentence end, rotate kill ring, pass negative argument, expand word |
+| [`ctrl q`, `ctrl v`](kata/17_ctrl-q_ctrl-v_.md)                                                        | Literal insert, literal insert or page down                                 |
+| [`alt q`, `alt v`](kata/18_alt-q_alt-v_.md)                                                            | Realign text, page up                                                            |
+| [`ctrl t`, `ctrl x`, `ctrl z`](kata/19_ctrl-t_ctrl-x_ctrl-z.md)                                        | Transpose characters, prefix, suspend                                       |
+| [`alt t`, `alt x`, `alt z`](kata/20_alt-t_alt-x_alt-z.md)                                              | Transpose words, zap up to character, zap through to character              |
+
+</details>
 
 You can complete most of the kata with
   - A UNIX terminal via
@@ -112,7 +141,7 @@ If don't want to install any browser extensions, you can at least get scrolling 
 Click the black triangle to toggle the Vimium keymap table
 </summary>
 
-| Keybinding      | Action and link to lesson                         |
+| Keybinding      | Action and link to lesson                        |
 | -----------     | --------------------------------------           |
 | `j` or `Ctrl e` | Scroll down                                      |
 | `k` or `Ctrl y` | Scroll up                                        |
@@ -160,6 +189,7 @@ Click the black triangle to toggle the Vimium keymap table
 | `J` or `gT`     | Go one tab left                                  |
 | `K` or `gt`     | Go one tab right                                 |
 | `^`             | Go to previously-visited tab                     |
+
 | `g0`            | Go to the first tab                              |
 | `g$`            | Go to the last tab                               |
 | `yt`            | Duplicate current tab                            |
