@@ -13,8 +13,9 @@ Train your fingers to
 2. Git Version Control
 
 ### What keyboard shortcuts are covered?
-1. Shell (GNU Emacs / Readline)
-2. Vim
+1. [GNU Emacs](https://www.gnu.org/software/emacs/manual/html_node/emacs/Key-Index.html#Key-Index)
+2. [GNU Readline](https://www.gnu.org/software/bash/manual/html_node/Function-Index.html)
+3. [Vim](http://vimdoc.sourceforge.net/)
 
 ### Where can I use and practice these shortcuts?
 1. Terminal: MacOS, Linux, and Windows Subsystem for Linux (WSL)
