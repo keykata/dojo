@@ -24,19 +24,91 @@ Train your fingers to
 4. Python or R console: IPython, ptpython, or radian
 5. Jupyter notebook: JupyterLab or classic notebook interface
 
+### How can I find out if KeyKata is right for me?
+Basic information regarding KeyKata is in [Welcome to KeyKata](00_welcome_to_keykata.md).
+To get a idea of what KeyKata is like, try the following three kata in the [GNU series](#gnu-series):
+1. [Move to start and end of current line with ctrl a and ctrl e](kata/01_ctrl-a-and-ctrl-e.md)
+2. [Move left and right with ctrl b and ctrl f](kata/03_ctrl-b-and-ctrl-f.md)
+3. [Delete left and right with ctrl h, ctrl d, and ctrl w](kata/07_ctrl-d_ctrl-h_ctrl-w_ctrl-delete.md)
+
 ### Where should I start?
-After going through [Welcome to KeyKata](00_welcome_to_keykata.md),
-I recommend starting with the following three kata:
-1. [Move to start and end of current line with ctrl a and ctrl e](kata/01_ctrl-a-and-ctrl-e_move-to-line-start-and-end.md)
-2. [Move left and right with ctrl b and ctrl f](kata/02_ctrl-b-and-ctrl-f_move-left-and-right.md)
-3. [Delete left and right with ctrl h and ctrl d](kata/03_ctrl-h-and-ctrl-d_delete-left-and-right.md)
+- Complete the [GNU series](#gnu-series) to learn Emacs and Readline keybindings
+- Complete the [Vim series](#vim-series) to
+  - set up and practice Emacs and Readline keybindings in Vim insert mode
+  - learn Vim normal and visual mode keybindings
+- Complete the Web series to learn to use the [Vimium](#vimium) and [Surfingkeys](#surfingkeys) browser extensions
+
+### What will I need?
+
+You can complete most of the GNU series with
+  - A UNIX terminal via
+    - MacOS,
+    - Linux, or
+    - Windows Subsystem for Linux (WSL)
+  - A code editor, like [RStudio](#rstudio), with Emacs mode enabled
+  - GNU Emacs (terminal or GUI)
+
+## Index
 
 <details>
 <summary>
-Click the black triangle to see the suggested kata order
+Click the black triangle to toggle the Index
 </summary>
 
-| Keybinding                                                                                             | Description                                                                 |
+- Command (or Cmd) ⌘
+- Shift ⇧
+- Option (or Alt) ⌥
+- Control (or Ctrl) ⌃
+- Escape ⎋
+- Tab ⇥
+- Return ↩
+- Space ␣
+- Left ←
+- Down ↓
+- Up ↑
+- Right →
+1. [GNU series](#gnu-series)
+2. [Vim series](#vim-series)
+3. [Web series](#web-series)
+4. [Browser keybindings](#browser-keybindings)
+  - [Vimium](#vimium)
+  - [Surfingkeys keymap](#surfingkeys)
+5. [Ctrl ⌃ keybindings](#ctrl-keybindings)
+  - [Ctrl ⌃ setup](#ctrl-setup)
+  - [Ctrl ⌃ keymap](#ctrl-keymap)
+6. [Alt ⌥ keybindings](#alt-keybindings)
+  - [Alt ⌥ setup](#alt-setup)
+  - [Alt ⌥ keymap](#alt-keymap)
+7. [Cmd ⌘ keybindings](#alt-keybindings)
+  - [Cmd ⌘ setup](#cmd-setup)
+  - [Cmd ⌘ keymap](#cmd-keymap)
+8. [MacOS apps](#macos-apps)
+  - [Alfred](#alfred)
+  - [AltTab](#alttab)
+  - [Amethyst](#amethyst)
+  - [Anaconda](#anaconda)
+  - [CopyQ](#copyq)
+  - [Jetbrains IDEs](#jetbrains-ides)
+  - [Karabiner](#karabiner)
+  - [RStudio](#rstudio)
+  - [VimR](#vimr)
+  - [Vimac](#vimac)
+9. [Command Line Tools](#command-line-tools)
+  - [asciinema](#asciinema)
+  - [ffmpeg](#ffmpeg)
+  - [tmux](#tmux)
+  - [miniconda](#miniconda)
+
+</details>
+
+### GNU series
+
+<details>
+<summary>
+Click the black triangle to see the GNU series
+</summary>
+
+| Keybindings                                                                                            | Description                                                                 |
 | -----------                                                                                            | ------------                                                                |
 | [`ctrl a`, `ctrl e`](kata/01_ctrl-a_ctrl-e.md)                                                         | Move to line start/end                                                      |
 | [`alt a`, `alt e`](kata/02_alt-a_alt-e.md)                                                             | Move to sentence start/end                                                  |
@@ -61,64 +133,44 @@ Click the black triangle to see the suggested kata order
 
 </details>
 
-You can complete most of the kata with
-  - A UNIX terminal via
-    - MacOS,
-    - Linux, or
-    - Windows Subsystem for Linux (WSL)
-  - A code editor, like [RStudio](#rstudio), with Emacs mode enabled
-
-### Where should I go next?
-- Learn the remaining [Ctrl](#ctrl-keybindings) and the [Alt](#alt-keybindings) keybindings
-- Learn browser keybindings with the [Vimium](#vimium) and [Surfingkeys](#surfingkeys) browser extensions
-
-## Index
-
 <details>
 <summary>
-Click the black triangle to toggle the Index
+Click the black triangle to see the Vim series
 </summary>
 
-- Command (or Cmd) ⌘
-- Shift ⇧
-- Option (or Alt) ⌥
-- Control (or Ctrl) ⌃
-- Escape ⎋
-- Tab ⇥
-- Return ↩
-- Space ␣
-- Left ←
-- Down ↓
-- Up ↑
-- Right →
-1. [Browser keybindings](#browser-keybindings)
-  - [Vimium](#vimium)
-  - [Surfingkeys keymap](#surfingkeys)
-2. [Ctrl ⌃ keybindings](#ctrl-keybindings)
-  - [Ctrl ⌃ setup](#ctrl-setup)
-  - [Ctrl ⌃ keymap](#ctrl-keymap)
-3. [Alt ⌥ keybindings](#alt-keybindings)
-  - [Alt ⌥ setup](#alt-setup)
-  - [Alt ⌥ keymap](#alt-keymap)
-4. [Cmd ⌘ keybindings](#alt-keybindings)
-  - [Cmd ⌘ setup](#cmd-setup)
-  - [Cmd ⌘ keymap](#cmd-keymap)
-5. [MacOS apps](#macos-apps)
-  - [Alfred](#alfred)
-  - [AltTab](#alttab)
-  - [Amethyst](#amethyst)
-  - [Anaconda](#anaconda)
-  - [CopyQ](#copyq)
-  - [Jetbrains IDEs](#jetbrains-ides)
-  - [Karabiner](#karabiner)
-  - [RStudio](#rstudio)
-  - [VimR](#vimr)
-  - [Vimac](#vimac)
-6. [Command Line Tools](#command-line-tools)
-  - [asciinema](#asciinema)
-  - [ffmpeg](#ffmpeg)
-  - [tmux](#tmux)
-  - [miniconda](#miniconda)
+| Mode   | Keybindings                                                                                                       | Description                                                                                                       |
+| ------ | -----------                                                                                                       | ------------                                                                                                      |
+| Insert | [`ctrl a`, `ctrl e`](kata/21_vim-insert_ctrl-a_ctrl-e.md)                                                         | Move to line start/end                                                                                            |
+| Insert | [`alt a`, `alt e`](kata/22_vim-insert_alt-a_alt-e.md)                                                             | Move to sentence start/end                                                                                        |
+| Insert | [`ctrl b`, `ctrl f`](kata/23_vim-insert_ctrl-b_ctrl-f.md)                                                         | Move left/right                                                                                                   |
+| Insert | [`alt b`, `alt f`](kata/24_vim-insert_alt-b_alt-f.md)                                                             | Move word start/end                                                                                               |
+| Insert | [`ctrl c`, `ctrl l`, `ctrl u`](kata/25_vim-insert_ctrl-c_ctrl-l_ctrl-u.md)                                        | Cancel, redraw screen, delete to line start                                                                       |
+| Insert | [`alt c`, `alt l`, `alt u`](kata/26_vim-insert_alt-c_alt-l_alt-u.md)                                              | Capitalize, lowercase, uppercase word                                                                             |
+| Insert | [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`](kata/27_vim-insert_ctrl-d_ctrl-h_ctrl-w_ctrl-delete.md)             | Delete left/left/right/word start                                                                                 |
+| Insert | [`alt d`, `alt delete`, `alt h`, `alt w`](kata/28_vim-insert_alt-d_alt-h_alt-w_alt-delete.md)                     | Delete word end/start and delete/save region                                                                      |
+| Insert | [`ctrl g`, `ctrl r`, `ctrl s`](kata/29_vim-insert_ctrl-g_ctrl-r_ctrl-s.md)                                        | Cancel, reverse search, search                                                                                    |
+| Insert | [`alt g`, `alt r`, `alt s`](kata/30_vim-insert_alt-g_alt-r_alt-s.md)                                              | Move prefix, revert line or top/m-insertiddle/bottom, search prefix                                               |
+| Insert | [`ctrl i`, `ctrl n`, `ctrl p`](kata/31_vim-insert_ctrl-i_ctrl-n_ctrl-p.md)                                        | Indent/complete, next, previous down                                                                              |
+| Insert | [`alt i`, `alt n`, `alt p`](kata/32_vim-insert_alt-i_alt-n_alt-p.md)                                              | Indent, none, none                                                                                                |
+| Insert | [`ctrl j`, `ctrl m`, `ctrl o`](kata/33_vim-insert_ctrl-j_ctrl-m_ctrl-o.md)                                        | Accept/new line, accept/new line, accept/new line                                                                 |
+| Insert | [`alt j`, `alt m`, `alt o`](kata/34_vim-insert_alt-j_alt-m_alt-o.md)                                              | Accept/new line, back to indentation, format prefix                                                               |
+| Insert | [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](kata/35_vim-insert_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md) | Kill to line end, paste from kill ring, undo, undo                                                                |
+| Insert | [`alt k`, `alt y`, `alt dash`, `alt backslash`](kata/36_vim-insert_alt-k_alt-y_alt-dash_alt-backslash.md)         | Kill to sentence end, rotate kill ring, pass negative argument, expand word                                       |
+| Insert | [`ctrl q`, `ctrl v`](kata/37_vim-insert_ctrl-q_ctrl-v_.md)                                                        | Literal insert, literal insert or page down                                                                       |
+| Insert | [`alt q`, `alt v`](kata/38_vim-insert_alt-q_alt-v_.md)                                                            | Realign text, page up                                                                                             |
+| Insert | [`ctrl t`, `ctrl x`, `ctrl z`](kata/39_vim-insert_ctrl-t_ctrl-x_ctrl-z.md)                                        | Transpose characters, prefix, suspend                                                                             |
+| Insert | [`alt t`, `alt x`, `alt z`](kata/40_vim-insert_alt-t_alt-x_alt-z.md)                                              | Transpose words, zap up to character, zap through to character                                                    |
+| Normal | [`a`, `i`, `A`, `I`, `gi`](kata/41_vim-normal_a_i.md)                                                             | Append/insert at cursor, Append/insert at line end/start, enter insert mode at last insert point                  |
+| Normal | [`b`, `e`, `w`, `B`, `E`, `W`, `ge`, `gE`, `gw`](kata/42_vim-normal_b_e_w.md)                                     | Move word by word, Move WORD by WORD                                                                              |
+| Normal | [`c`, `d`, `C`, `D`, `gc`, `gd`](kata/43_vim-normal_c_d.md)                                                       | Delete and enter insert mode or remain in normal mode                                                             |
+| Normal | [`f`, `t`, `F`, `T`, `gf`, `gt`, `;`, `,`, `g;`, `g,`](kata/43_vim-normal_f_t_semicolon_comma.md)                 | Move on top of/next to a character                                                                                |
+| Normal | [`gg`, `G`](kata/43_vim-normal_gg.md)                                                                             | Move to the top/bottom of a file                                                                                  |
+| Normal | [`h`, `j`, `k`, `l`, `H`, `J`, `L`, `gj`, `gk`](kata/43_vim-normal_h_j_k_l.md)                                    | Move left/down/up/right, screen top/bottom                                                                        |
+| Normal | [`m`, `M`, `gm`, `gM`, <kbq>`</kbd>, `'`](kata/43_vim-normal_m_backtick_singe-quote.md)                           | Set mark, move to screen/text middle, move to mark                                                                |
+| Normal | [`n`, `N`, `/`, `?`, `gn`](kata/43_vim-normal_n_slash_question-mark.md)                                           | Move to next/previous search match, search forward/backward                                                       |
+| Normal | [`o`, `O`, `] space`, `[ space`](kata/43_vim-normal_o_square-bracket-space.md)                                    | Add newline below/above and enter insert mode or stay in normal mode the top/bottom of a file or last/next change |
+| Normal | [`p`, `P`, `gp`, `gP`](kata/43_vim-normal_p.md)                                                                   | Paste after/before cursor                                                                                         |
+
 
 </details>
 
