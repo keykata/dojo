@@ -101,7 +101,7 @@ Click the black triangle to toggle the Index
 
 </details>
 
-### GNU series
+## GNU series
 
 <details>
 <summary>
@@ -132,6 +132,8 @@ Click the black triangle to see the GNU series
 | [`alt t`, `alt x`, `alt z`](kata/20_alt-t_alt-x_alt-z.md)                                                            | Transpose words, run command by name, zap to character                      |
 
 </details>
+
+## Vim series
 
 <details>
 <summary>
@@ -174,6 +176,9 @@ Click the black triangle to see the Vim series
 
 </details>
 
+## Web series
+
+TODO
 
 ## Browser keybindings
 
