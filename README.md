@@ -27,9 +27,9 @@ Train your fingers to
 ### How can I find out if KeyKata is right for me?
 Basic information regarding KeyKata is in [Welcome to KeyKata](00_welcome_to_keykata.md).
 To get a idea of what KeyKata is like, try the following three kata in the [GNU series](#gnu-series):
-1. [Move to start and end of current line with ctrl a and ctrl e](kata/01_ctrl-a-and-ctrl-e.md)
-2. [Move left and right with ctrl b and ctrl f](kata/03_ctrl-b-and-ctrl-f.md)
-3. [Delete left and right with ctrl h, ctrl d, and ctrl w](kata/07_ctrl-d_ctrl-h_ctrl-w_ctrl-delete.md)
+1. [Move to start and end of current line with ctrl a and ctrl e](gnu/01_ctrl-a-and-ctrl-e.md)
+2. [Move left and right with ctrl b and ctrl f](gnu/03_ctrl-b-and-ctrl-f.md)
+3. [Delete left and right with ctrl h, ctrl d, and ctrl w](gnu/07_ctrl-d_ctrl-h_ctrl-w_ctrl-delete.md)
 
 ### Where should I start?
 - Complete the [GNU series](#gnu-series) to learn Emacs and Readline keybindings
@@ -108,28 +108,28 @@ Click the black triangle to toggle the Index
 Click the black triangle to see the GNU series
 </summary>
 
-| Keybindings                                                                                                          | Description                                                                 |
-| -----------                                                                                                          | ------------                                                                |
-| [`ctrl a`, `ctrl e`](kata/01_ctrl-a_ctrl-e.md)                                                                       | Move to line start/end                                                      |
-| [`alt a`, `alt e`](kata/02_alt-a_alt-e.md)                                                                           | Move to sentence start/end                                                  |
-| [`ctrl b`, `ctrl f`](kata/03_ctrl-b_ctrl-f.md)                                                                       | Move left/right                                                             |
-| [`alt b`, `alt f`](kata/04_alt-b_alt-f.md)                                                                           | Move word start/end                                                         |
-| [`ctrl c`, `ctrl l`, `ctrl u`](kata/05_ctrl-c_ctrl-l_ctrl-u.md)                                                      | Cancel, redraw screen, delete to line start                                 |
-| [`alt c`, `alt l`, `alt u`](kata/06_alt-c_alt-l_alt-u.md)                                                            | Capitalize, lowercase, uppercase word                                       |
-| [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`, `ctrl space`](kata/07_ctrl-d_ctrl-h_ctrl-w_ctrl-delete+_ctrl-space.md) | Delete left/left/right/word start, set mark                                 |
-| [`alt d`, `alt delete`, `alt h`, `alt w`, `alt space`](kata/08_alt-d_alt-h_alt-w_alt-delete_alt-space.md)            | Delete word end/start, kill/save region, delete whitespace                  |
-| [`ctrl g`, `ctrl r`, `ctrl s`](kata/09_ctrl-g_ctrl-r_ctrl-s.md)                                                      | Cancel, reverse search, search                                              |
-| [`alt g`, `alt r`, `alt s`](kata/10_alt-g_alt-r_alt-s.md)                                                            | Move prefix, revert line or top/middle/bottom, search prefix                |
-| [`ctrl i`, `ctrl n`, `ctrl p`](kata/11_ctrl-i_ctrl-n_ctrl-p.md)                                                      | Indent/complete, next, previous down                                        |
-| [`alt i`, `alt n`, `alt p`](kata/12_alt-i_alt-n_alt-p.md)                                                            | Indent, none, none                                                          |
-| [`ctrl j`, `ctrl m`, `ctrl o`](kata/13_ctrl-j_ctrl-m_ctrl-o.md)                                                      | Accept/new line, accept/new line, accept/new line                           |
-| [`alt j`, `alt m`, `alt o`](kata/14_alt-j_alt-m_alt-o.md)                                                            | Accept/new line, back to indentation, format prefix                         |
-| [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](kata/15_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md)               | Kill to line end, paste from kill ring, undo, undo                          |
-| [`alt k`, `alt y`, `alt dash`, `alt backslash`](kata/16_alt-k_alt-y_alt-dash_alt-backslash.md)                       | Kill to sentence end, rotate kill ring, pass negative argument, expand word |
-| [`ctrl q`, `ctrl v`](kata/17_ctrl-q_ctrl-v_.md)                                                                      | Literal insert, literal insert or page down                                 |
-| [`alt q`, `alt v`](kata/18_alt-q_alt-v_.md)                                                                          | Realign text, page up                                                       |
-| [`ctrl t`, `ctrl x`, `ctrl z`](kata/19_ctrl-t_ctrl-x_ctrl-z.md)                                                      | Transpose characters, prefix, suspend                                       |
-| [`alt t`, `alt x`, `alt z`](kata/20_alt-t_alt-x_alt-z.md)                                                            | Transpose words, run command by name, zap to character                      |
+| Keybindings                                                                                                         | Description                                                                 |
+| -----------                                                                                                         | ------------                                                                |
+| [`ctrl a`, `ctrl e`](gnu/01_ctrl-a_ctrl-e.md)                                                                       | Move to line start/end                                                      |
+| [`alt a`, `alt e`](gnu/02_alt-a_alt-e.md)                                                                           | Move to sentence start/end                                                  |
+| [`ctrl b`, `ctrl f`](gnu/03_ctrl-b_ctrl-f.md)                                                                       | Move left/right                                                             |
+| [`alt b`, `alt f`](gnu/04_alt-b_alt-f.md)                                                                           | Move word start/end                                                         |
+| [`ctrl c`, `ctrl l`, `ctrl u`](gnu/05_ctrl-c_ctrl-l_ctrl-u.md)                                                      | Cancel, redraw screen, delete to line start                                 |
+| [`alt c`, `alt l`, `alt u`](gnu/06_alt-c_alt-l_alt-u.md)                                                            | Capitalize, lowercase, uppercase word                                       |
+| [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`, `ctrl space`](gnu/07_ctrl-d_ctrl-h_ctrl-w_ctrl-delete_ctrl-space.md) | Delete left/left/right/word start, set mark                                 |
+| [`alt d`, `alt delete`, `alt h`, `alt w`, `alt space`](gnu/08_alt-d_alt-h_alt-w_alt-delete_alt-space.md)            | Delete word end/start, kill/save region, delete whitespace                  |
+| [`ctrl g`, `ctrl r`, `ctrl s`](gnu/09_ctrl-g_ctrl-r_ctrl-s.md)                                                      | Cancel, reverse search, search                                              |
+| [`alt g`, `alt r`, `alt s`](gnu/10_alt-g_alt-r_alt-s.md)                                                            | Move prefix, revert line or top/middle/bottom, search prefix                |
+| [`ctrl i`, `ctrl n`, `ctrl p`](gnu/11_ctrl-i_ctrl-n_ctrl-p.md)                                                      | Indent/complete, next, previous down                                        |
+| [`alt i`, `alt n`, `alt p`](gnu/12_alt-i_alt-n_alt-p.md)                                                            | Indent, none, none                                                          |
+| [`ctrl j`, `ctrl m`, `ctrl o`](gnu/13_ctrl-j_ctrl-m_ctrl-o.md)                                                      | Accept/new line, accept/new line, accept/new line                           |
+| [`alt j`, `alt m`, `alt o`](gnu/14_alt-j_alt-m_alt-o.md)                                                            | Accept/new line, back to indentation, format prefix                         |
+| [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](gnu/15_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md)               | Kill to line end, paste from kill ring, undo, undo                          |
+| [`alt k`, `alt y`, `alt dash`, `alt backslash`](gnu/16_alt-k_alt-y_alt-dash_alt-backslash.md)                       | Kill to sentence end, rotate kill ring, pass negative argument, expand word |
+| [`ctrl q`, `ctrl v`](gnu/17_ctrl-q_ctrl-v.md)                                                                      | Literal insert, literal insert or page down                                 |
+| [`alt q`, `alt v`](gnu/18_alt-q_alt-v.md)                                                                          | Realign text, page up                                                       |
+| [`ctrl t`, `ctrl x`, `ctrl z`](gnu/19_ctrl-t_ctrl-x_ctrl-z.md)                                                      | Transpose characters, prefix, suspend                                       |
+| [`alt t`, `alt x`, `alt z`](gnu/20_alt-t_alt-x_alt-z.md)                                                            | Transpose words, run command by name, zap to character                      |
 
 </details>
 
@@ -140,38 +140,38 @@ Click the black triangle to see the GNU series
 Click the black triangle to see the Vim series
 </summary>
 
-| Mode   | Keybindings                                                                                                                    | Description                                                                                                       |
-| ------ | -----------                                                                                                                    | ------------                                                                                                      |
-| Insert | [`ctrl a`, `ctrl e`](kata/21_vim-insert_ctrl-a_ctrl-e.md)                                                                      | Move to line start/end                                                                                            |
-| Insert | [`alt a`, `alt e`](kata/22_vim-insert_alt-a_alt-e.md)                                                                          | Move to sentence start/end                                                                                        |
-| Insert | [`ctrl b`, `ctrl f`](kata/23_vim-insert_ctrl-b_ctrl-f.md)                                                                      | Move left/right                                                                                                   |
-| Insert | [`alt b`, `alt f`](kata/24_vim-insert_alt-b_alt-f.md)                                                                          | Move word start/end                                                                                               |
-| Insert | [`ctrl c`, `ctrl l`, `ctrl u`](kata/25_vim-insert_ctrl-c_ctrl-l_ctrl-u.md)                                                     | Cancel, redraw screen, delete to line start                                                                       |
-| Insert | [`alt c`, `alt l`, `alt u`](kata/26_vim-insert_alt-c_alt-l_alt-u.md)                                                           | Capitalize, lowercase, uppercase word                                                                             |
-| Insert | [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`, `ctrl space`](kata/27_vim-insert_ctrl-d_ctrl-h_ctrl-w_ctrl-delete_ctrl-space.md) | Delete left/left/right/word start, set mark                                                                       |
-| Insert | [`alt d`, `alt delete`, `alt h`, `alt w`, `alt space`](kata/28_vim-insert_alt-d_alt-h_alt-w_alt-delete_alt-space.md)           | Delete word end/start and kill/save region, delete whitespace                                                     |
-| Insert | [`ctrl g`, `ctrl r`, `ctrl s`](kata/29_vim-insert_ctrl-g_ctrl-r_ctrl-s.md)                                                     | Cancel, reverse search, search                                                                                    |
-| Insert | [`alt g`, `alt r`, `alt s`](kata/30_vim-insert_alt-g_alt-r_alt-s.md)                                                           | Move prefix, revert line or top/m-insertiddle/bottom, search prefix                                               |
-| Insert | [`ctrl i`, `ctrl n`, `ctrl p`](kata/31_vim-insert_ctrl-i_ctrl-n_ctrl-p.md)                                                     | Indent/complete, next, previous down                                                                              |
-| Insert | [`alt i`, `alt n`, `alt p`](kata/32_vim-insert_alt-i_alt-n_alt-p.md)                                                           | Indent, none, none                                                                                                |
-| Insert | [`ctrl j`, `ctrl m`, `ctrl o`](kata/33_vim-insert_ctrl-j_ctrl-m_ctrl-o.md)                                                     | Accept/new line, accept/new line, accept/new line                                                                 |
-| Insert | [`alt j`, `alt m`, `alt o`](kata/34_vim-insert_alt-j_alt-m_alt-o.md)                                                           | Accept/new line, back to indentation, format prefix                                                               |
-| Insert | [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](kata/35_vim-insert_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md)              | Kill to line end, paste from kill ring, undo, undo                                                                |
-| Insert | [`alt k`, `alt y`, `alt dash`, `alt backslash`](kata/36_vim-insert_alt-k_alt-y_alt-dash_alt-backslash.md)                      | Kill to sentence end, rotate kill ring, pass negative argument, expand word                                       |
-| Insert | [`ctrl q`, `ctrl v`](kata/37_vim-insert_ctrl-q_ctrl-v_.md)                                                                     | Literal insert, literal insert or page down                                                                       |
-| Insert | [`alt q`, `alt v`](kata/38_vim-insert_alt-q_alt-v_.md)                                                                         | Realign text, page up                                                                                             |
-| Insert | [`ctrl t`, `ctrl x`, `ctrl z`](kata/39_vim-insert_ctrl-t_ctrl-x_ctrl-z.md)                                                     | Transpose characters, prefix, suspend                                                                             |
-| Insert | [`alt t`, `alt x`, `alt z`](kata/40_vim-insert_alt-t_alt-x_alt-z.md)                                                           | Transpose words, run command by name, zap to character                                                            |
-| Normal | [`a`, `i`, `A`, `I`, `gi`](kata/41_vim-normal_a_i.md)                                                                          | Append/insert at cursor, Append/insert at line end/start, enter insert mode at last insert point                  |
-| Normal | [`b`, `e`, `w`, `B`, `E`, `W`, `ge`, `gE`, `gw`](kata/42_vim-normal_b_e_w.md)                                                  | Move word by word, Move WORD by WORD                                                                              |
-| Normal | [`c`, `d`, `C`, `D`, `gc`, `gd`](kata/43_vim-normal_c_d.md)                                                                    | Delete and enter insert mode or remain in normal mode                                                             |
-| Normal | [`f`, `t`, `F`, `T`, `gf`, `gt`, `;`, `,`, `g;`, `g,`](kata/43_vim-normal_f_t_semicolon_comma.md)                              | Move on top of/next to a character                                                                                |
-| Normal | [`gg`, `G`](kata/43_vim-normal_gg.md)                                                                                          | Move to the top/bottom of a file                                                                                  |
-| Normal | [`h`, `j`, `k`, `l`, `H`, `J`, `L`, `gj`, `gk`](kata/43_vim-normal_h_j_k_l.md)                                                 | Move left/down/up/right, screen top/bottom                                                                        |
-| Normal | [`m`, `M`, `gm`, `gM`, <kbq>`</kbd>, `'`](kata/43_vim-normal_m_backtick_singe-quote.md)                                        | Set mark, move to screen/text middle, move to mark                                                                |
-| Normal | [`n`, `N`, `/`, `?`, `gn`](kata/43_vim-normal_n_slash_question-mark.md)                                                        | Move to next/previous search match, search forward/backward                                                       |
-| Normal | [`o`, `O`, `] space`, `[ space`](kata/43_vim-normal_o_square-bracket-space.md)                                                 | Add newline below/above and enter insert mode or stay in normal mode the top/bottom of a file or last/next change |
-| Normal | [`p`, `P`, `gp`, `gP`](kata/43_vim-normal_p.md)                                                                                | Paste after/before cursor                                                                                         |
+| Mode   | Keybindings                                                                                                                   | Description                                                                                                       |
+| ------ | -----------                                                                                                                   | ------------                                                                                                      |
+| Insert | [`ctrl a`, `ctrl e`](gnu/21_vim-insert_ctrl-a_ctrl-e.md)                                                                      | Move to line start/end                                                                                            |
+| Insert | [`alt a`, `alt e`](gnu/22_vim-insert_alt-a_alt-e.md)                                                                          | Move to sentence start/end                                                                                        |
+| Insert | [`ctrl b`, `ctrl f`](gnu/23_vim-insert_ctrl-b_ctrl-f.md)                                                                      | Move left/right                                                                                                   |
+| Insert | [`alt b`, `alt f`](gnu/24_vim-insert_alt-b_alt-f.md)                                                                          | Move word start/end                                                                                               |
+| Insert | [`ctrl c`, `ctrl l`, `ctrl u`](gnu/25_vim-insert_ctrl-c_ctrl-l_ctrl-u.md)                                                     | Cancel, redraw screen, delete to line start                                                                       |
+| Insert | [`alt c`, `alt l`, `alt u`](gnu/26_vim-insert_alt-c_alt-l_alt-u.md)                                                           | Capitalize, lowercase, uppercase word                                                                             |
+| Insert | [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`, `ctrl space`](gnu/27_vim-insert_ctrl-d_ctrl-h_ctrl-w_ctrl-delete_ctrl-space.md) | Delete left/left/right/word start, set mark                                                                       |
+| Insert | [`alt d`, `alt delete`, `alt h`, `alt w`, `alt space`](gnu/28_vim-insert_alt-d_alt-h_alt-w_alt-delete_alt-space.md)           | Delete word end/start and kill/save region, delete whitespace                                                     |
+| Insert | [`ctrl g`, `ctrl r`, `ctrl s`](gnu/29_vim-insert_ctrl-g_ctrl-r_ctrl-s.md)                                                     | Cancel, reverse search, search                                                                                    |
+| Insert | [`alt g`, `alt r`, `alt s`](gnu/30_vim-insert_alt-g_alt-r_alt-s.md)                                                           | Move prefix, revert line or top/m-insertiddle/bottom, search prefix                                               |
+| Insert | [`ctrl i`, `ctrl n`, `ctrl p`](gnu/31_vim-insert_ctrl-i_ctrl-n_ctrl-p.md)                                                     | Indent/complete, next, previous down                                                                              |
+| Insert | [`alt i`, `alt n`, `alt p`](gnu/32_vim-insert_alt-i_alt-n_alt-p.md)                                                           | Indent, none, none                                                                                                |
+| Insert | [`ctrl j`, `ctrl m`, `ctrl o`](gnu/33_vim-insert_ctrl-j_ctrl-m_ctrl-o.md)                                                     | Accept/new line, accept/new line, accept/new line                                                                 |
+| Insert | [`alt j`, `alt m`, `alt o`](gnu/34_vim-insert_alt-j_alt-m_alt-o.md)                                                           | Accept/new line, back to indentation, format prefix                                                               |
+| Insert | [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](gnu/35_vim-insert_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md)              | Kill to line end, paste from kill ring, undo, undo                                                                |
+| Insert | [`alt k`, `alt y`, `alt dash`, `alt backslash`](gnu/36_vim-insert_alt-k_alt-y_alt-dash_alt-backslash.md)                      | Kill to sentence end, rotate kill ring, pass negative argument, expand word                                       |
+| Insert | [`ctrl q`, `ctrl v`](gnu/37_vim-insert_ctrl-q_ctrl-v_.md)                                                                     | Literal insert, literal insert or page down                                                                       |
+| Insert | [`alt q`, `alt v`](gnu/38_vim-insert_alt-q_alt-v_.md)                                                                         | Realign text, page up                                                                                             |
+| Insert | [`ctrl t`, `ctrl x`, `ctrl z`](gnu/39_vim-insert_ctrl-t_ctrl-x_ctrl-z.md)                                                     | Transpose characters, prefix, suspend                                                                             |
+| Insert | [`alt t`, `alt x`, `alt z`](gnu/40_vim-insert_alt-t_alt-x_alt-z.md)                                                           | Transpose words, run command by name, zap to character                                                            |
+| Normal | [`a`, `i`, `A`, `I`, `gi`](gnu/41_vim-normal_a_i.md)                                                                          | Append/insert at cursor, Append/insert at line end/start, enter insert mode at last insert point                  |
+| Normal | [`b`, `e`, `w`, `B`, `E`, `W`, `ge`, `gE`, `gw`](gnu/42_vim-normal_b_e_w.md)                                                  | Move word by word, Move WORD by WORD                                                                              |
+| Normal | [`c`, `d`, `C`, `D`, `gc`, `gd`](gnu/43_vim-normal_c_d.md)                                                                    | Delete and enter insert mode or remain in normal mode                                                             |
+| Normal | [`f`, `t`, `F`, `T`, `gf`, `gt`, `;`, `,`, `g;`, `g,`](gnu/43_vim-normal_f_t_semicolon_comma.md)                              | Move on top of/next to a character                                                                                |
+| Normal | [`gg`, `G`](gnu/43_vim-normal_gg.md)                                                                                          | Move to the top/bottom of a file                                                                                  |
+| Normal | [`h`, `j`, `k`, `l`, `H`, `J`, `L`, `gj`, `gk`](gnu/43_vim-normal_h_j_k_l.md)                                                 | Move left/down/up/right, screen top/bottom                                                                        |
+| Normal | [`m`, `M`, `gm`, `gM`, <kbq>`</kbd>, `'`](gnu/43_vim-normal_m_backtick_singe-quote.md)                                        | Set mark, move to screen/text middle, move to mark                                                                |
+| Normal | [`n`, `N`, `/`, `?`, `gn`](gnu/43_vim-normal_n_slash_question-mark.md)                                                        | Move to next/previous search match, search forward/backward                                                       |
+| Normal | [`o`, `O`, `] space`, `[ space`](gnu/43_vim-normal_o_square-bracket-space.md)                                                 | Add newline below/above and enter insert mode or stay in normal mode the top/bottom of a file or last/next change |
+| Normal | [`p`, `P`, `gp`, `gP`](gnu/43_vim-normal_p.md)                                                                                | Paste after/before cursor                                                                                         |
 
 
 </details>
@@ -554,39 +554,39 @@ Interestingly, `Ctrl y` seems to work in Finder, TextEdit, and Chrome, but not S
 Click the black triangle to toggle the Ctrl ⌃ keymap table
 </summary>
 
-| Keybinding   | Action and link to lesson                                                                | Emacs              | Shell              | MacOS              | Vim                |
-| -----------  | --------------------------------------                                                   | ------             | ------             | ------             | ----               |
-| `Ctrl a`     | [Move to start of current line](kata/01_ctrl-a-and-ctrl-e_move-to-line-start-and-end.md) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl b`     | [Move left one character](kata/02_ctrl-b-and-ctrl-f_move-left-and-right.md)              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl c`     | Cancel                                                                                   | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl d`     | [Delete right one character](kata/03_ctrl-h-and-ctrl-d_delete-left-and-right.md)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl e`     | [Move to end of current line](kata/01_ctrl-a-and-ctrl-e_move-to-line-start-and-end.md)   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl f`     | [Move right one character](kata/02_ctrl-b-and-ctrl-f_move-left-and-right.md)             | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl g`     | Cancel                                                                                   | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| `Ctrl h`     | [Delete left](kata/03_ctrl-h-and-ctrl-d_delete-left-and-right.md)                        | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| `Ctrl i`     | Indent                                                                                   | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl j`     | Newline / Confirm                                                                        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl k`     | Kill to line end                                                                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| `Ctrl l`     | Clear screen                                                                             | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl m`     | Newline / Confirm                                                                        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl n`     | Down / Next                                                                              | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl o`     | Newline / Confirm                                                                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl p`     | Down / Previous                                                                          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| `Ctrl q`     | Insert literally                                                                         | :x:                | :x:                | :x:                | :white_check_mark: |
-| `Ctrl r`     | Reverse Search                                                                           | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl s`     | Vimac Scroll mode<sup>[1](#forward-search)</sup>                                         | :white_check_mark: | :x:                | :x:                | :x:                |
-| `Ctrl t`     | Transpose characters                                                                     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
-| `Ctrl u`     | Kill to line start                                                                       | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl v`     | Insert literally<sup>[2](#page-down)</sup>                                               | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl w`     | Kill previous word                                                                       | :white_check_mark: | :x:                | :x:                | :x:                |
-| `Ctrl x`     | Prefix for chord bindings                                                                | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl y`     | Yank / paste from killring                                                               | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| `Ctrl z`     | Put process in background                                                                | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl /`     | Undo                                                                                     | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| `Ctrl _`     | Undo                                                                                     | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
-| `Ctrl \`     | Toggle input method                                                                      | :white_check_mark: | :x:                | :x:                | :x:                |
-| `Ctrl ]`     | Find next character<sup>[3](#cancel-recursive-edit)</sup>                                | :white_check_mark: | :x:                | :x:                | :x:                |
-| `Ctrl Space` | Vimac hint mode<sup>[4](#set-mark)</sup>                                                 | :x:                | :x:                | :x:                | :x:                |
+| Keybinding   | Action and link to lesson                                 | Emacs              | Shell              | MacOS              | Vim                |
+| -----------  | --------------------------------------                    | ------             | ------             | ------             | ----               |
+| `Ctrl a`     | [Move to start of current line](gnu/01_ctrl-a_ctrl-e.md)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl b`     | [Move left one character](gnu/02_ctrl-b_ctrl-f.md)        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl c`     | Cancel                                                    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl d`     | [Delete right one character](gnu/05_ctrl-h_ctrl-d.md)     | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl e`     | [Move to end of current line](gnu/01_ctrl-a_ctrl-e.md)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl f`     | [Move right one character](gnu/03_ctrl-b_ctrl-f.md)       | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl g`     | Cancel                                                    | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| `Ctrl h`     | [Delete left](gnu/05_ctrl-h_ctrl-d.md)                    | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| `Ctrl i`     | Indent                                                    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl j`     | Newline / Confirm                                         | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl k`     | Kill to line end                                          | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| `Ctrl l`     | Clear screen                                              | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl m`     | Newline / Confirm                                         | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl n`     | Down / Next                                               | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl o`     | Newline / Confirm                                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl p`     | Down / Previous                                           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| `Ctrl q`     | Insert literally                                          | :x:                | :x:                | :x:                | :white_check_mark: |
+| `Ctrl r`     | Reverse Search                                            | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl s`     | Vimac Scroll mode<sup>[1](#forward-search)</sup>          | :white_check_mark: | :x:                | :x:                | :x:                |
+| `Ctrl t`     | Transpose characters                                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
+| `Ctrl u`     | Kill to line start                                        | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl v`     | Insert literally<sup>[2](#page-down)</sup>                | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl w`     | Kill previous word                                        | :white_check_mark: | :x:                | :x:                | :x:                |
+| `Ctrl x`     | Prefix for chord bindings                                 | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl y`     | Yank / paste from killring                                | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| `Ctrl z`     | Put process in background                                 | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
+| `Ctrl /`     | Undo                                                      | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| `Ctrl _`     | Undo                                                      | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
+| `Ctrl \`     | Toggle input method                                       | :white_check_mark: | :x:                | :x:                | :x:                |
+| `Ctrl ]`     | Find next character<sup>[3](#cancel-recursive-edit)</sup> | :white_check_mark: | :x:                | :x:                | :x:                |
+| `Ctrl Space` | Vimac hint mode<sup>[4](#set-mark)</sup>                  | :x:                | :x:                | :x:                | :x:                |
 
 </details>
 
