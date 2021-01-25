@@ -20,11 +20,9 @@ mention non-MacOS alternatives throughout this video. Please feel
 free to contribute your own content, for example Windows and Linux setup
 instructions, via pull request at https://github.com/keykata/dojo.
 
-
 #### Vimari
 
-The first
-App I will install is called
+The first App I will install is called
 [Vimari](https://github.com/televator-apps/vimari/#vimari). Vimari provides
 enhanced scrolling and a hint mode that removes the need to use the mouse in
 the browser. Later on, I will switch from Safari to Firefox and Chromium-based
@@ -33,22 +31,27 @@ App Store using the MacOS Spotlight Search. The Spotlight Search shortcut is
 `Command Space`. The Windows equivalent of Spotlight Search would be to press
 the Windows key. Next, I will press `Command f` to go to the search input
 field. After I type in vimari, I press enter and then click install. Now I can
-open up Safari, again with Spotlight Search, to install Vimac, the next MacOS
-App I .
+open up Safari, again with Spotlight Search, to install Vimac, another awesome
+MacOS App. After I press `command l` to edit the url, I'll type in
+vimacapp.com. Thanks to Vimari, I can scroll down with `j` and scroll up with
+`k`. Vimac is going to allow us to scroll like this outside of the browser. The
+other feature that is shared by both Vimari and Vimac is the Hint Mode. To use
+the Vimari equivalent of Hint Mode, I press `f`. Then I can press the key shown
+to open the link underneath. On the next page, I press `f` again to start the
+download. Then I have to click the pop-up to allow the download.
 
 #### Vimac
 
-[Vimac](https://github.com/dexterleng/vimac#vimac). 
-Vimac provides a keyboard centric interface
-to MacOS called Hint Mode. Windows users can get the same functionality from
-[hunt-and-peck](https://github.com/zsims/hunt-and-peck). To install Vimac, I'll
-copy some download the latest release from the `vimacapp.com`. First, I'll open
-up a browser using the MacOS Spotlight Search. The Spotlight Search shortcut is
-`Command Space`. The Windows equivalent of Spotlight Search would be to press
-the Windows key. Since I wiped this computer before recording this video, the
-only browser I have is Safari. Safari is only available on MacOS, but any
-browser will do. and Karabiner Elements. and Karabiner is a keyboard
-customization application
+[Vimac](https://github.com/dexterleng/vimac#vimac) provides a keyboard centric
+interface to MacOS called Hint Mode. Windows users can get the same
+functionality from [hunt-and-peck](https://github.com/zsims/hunt-and-peck). To
+install Vimac, I'll copy some download the latest release from the
+`vimacapp.com`. First, I'll open up Safari using the MacOS Spotlight Search.
+The Spotlight Search shortcut is `Command Space`. The Windows equivalent of
+Spotlight Search would be to press the Windows key. Since I wiped this computer
+before recording this video, the only browser I have is Safari. Safari is only
+available on MacOS, but any browser will do. and Karabiner Elements. and
+Karabiner is a keyboard customization application
 
 and Keyboard Manager,
 which comes with Windows PowerToys. To install these Vimac and Karabiner, I
