@@ -67,6 +67,18 @@ Click the black triangle to toggle the Index
 - Down ↓
 - Up ↑
 - Right →
+0. [Mac series](#mac-series)
+  - [Alfred](#alfred)
+  - [AltTab](#alttab)
+  - [Rectangle](#Rectangle)
+  - [Anaconda](#anaconda)
+  - [CopyQ](#copyq)
+  - [Jetbrains IDEs](#jetbrains-ides)
+  - [Karabiner](#karabiner)
+  - [RStudio](#rstudio)
+  - [VimR](#vimr)
+  - [Vimac](#vimac)
+  - [Vimari](#vimari)
 1. [GNU series](#gnu-series)
 2. [Vim series](#vim-series)
 3. [Web series](#web-series)
@@ -82,24 +94,101 @@ Click the black triangle to toggle the Index
 7. [Cmd ⌘ keybindings](#alt-keybindings)
   - [Cmd ⌘ setup](#cmd-setup)
   - [Cmd ⌘ keymap](#cmd-keymap)
-8. [MacOS apps](#macos-apps)
-  - [Alfred](#alfred)
-  - [AltTab](#alttab)
-  - [Amethyst](#amethyst)
-  - [Anaconda](#anaconda)
-  - [CopyQ](#copyq)
-  - [Jetbrains IDEs](#jetbrains-ides)
-  - [Karabiner](#karabiner)
-  - [RStudio](#rstudio)
-  - [VimR](#vimr)
-  - [Vimac](#vimac)
-9. [Command Line Tools](#command-line-tools)
+8. [Command Line Tools](#command-line-tools)
   - [asciinema](#asciinema)
   - [ffmpeg](#ffmpeg)
   - [tmux](#tmux)
   - [miniconda](#miniconda)
 
 </details>
+
+## Mac series
+
+Here are some of my favorite 3rd party MacOS applications (I'm planning a video for each one!):
+
+### [Vimari](mac/000_mac_vimari.md)
+
+- Install Vimari using App Store
+- Practice scrolling (j / k and d / u)
+- Practice using hints (f)
+- Mention options for other browsers (Vimium & Surfingkeys)
+
+### [Vimac](mac/001_mac_vimac.md)
+
+- Install Vimac from vimacapp.com
+- Grant permissions (Accessibility and Input Monitoring)
+- Set shortcuts to toggle the menu bar (similar to Dock toggling shortcut)
+- Access Vimac preferences using custom menu bar shortcut (⌘ ⌥ ;)
+- Set Response Delay (0.15)
+- Set key sequences and shortcuts
+- Practice activating modes
+- Practice scrolling (j / k and d / u)
+- Practice using hint mode
+- Mention options for Windows and Linux (e.g. hunt-n-peck)
+
+### [Karabiner](mac/003_mac_vimac.md)
+- Install brew
+- Install Karabiner-Elements via brew
+- Access Karabiner-Elements preferences using custom menu bar shortcut (⌘ ⌥ ;)
+- Set up Caps Lock and Enter to work as Control when held
+- Add Emacs and Bash style shortcuts
+
+### [CopyQ](mac/003_mac_vimac.md)
+- Install brew (if not already installed)
+- Install CopyQ via brew
+- Set up shortcuts
+
+### Alfred
+- Alternative to Spotlight Search
+
+### AltTab
+- Alternative to MacOS App Switcher and Window Alternator
+
+### Rectangle
+- Window manager
+
+### VimR
+- Vim GUI
+
+### Cheatsheet
+- View shortcuts for a given MacOS App
+
+### CustomShortcuts
+- Edit shortcuts for a given MacOS App
+
+<details>
+<summary>
+Click the black triangle to toggle the Karabiner keyboard customization table
+</summary>
+
+
+| Before      | After                                                              | Import name                                                                                  | Rule name                                                          |
+| ----------- | ------------------------------------------------------------------ | ------------------------------------------------------------------                           | ------------------------------------------------------------------ |
+| `Caps Lock` | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  | [Change caps_lock key (rev 4)](https://ke-complex-modifications.pqrs.org/#caps_lock)         | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  |
+| `Enter`     | `Ctrl` when pressed with other keys, `Enter` when pressed alone    | [Change return to control](https://ke-complex-modifications.pqrs.org/#return_to_ctrl)        | `Ctrl` when pressed with other keys, `Enter` when pressed alone    |
+| `Ctrl d`    | `Delete_Forward`                                                   | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl h`    | `Delete_or_Backspace`                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl i`    | `Tab`                                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl [`    | `Escape`                                                           | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl m`    | `Return_or_Enter`                                                  | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl b`    | `Left_Arrow`                                                       | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl f`    | `Right_Arrow`                                                      | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl n`    | `Down_Arrow`                                                       | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl p`    | `Up_Arrow`                                                         | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl v`    | `Page_Down`                                                        | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl a`    | `Home` or `Cmd Left_Arrow`                                         | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl e`    | `End` or `Cmd Right_Arrow`                                         | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Ctrl w`    | `Alt Delete_or_Backspace`                                          | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Bash style Emacs key bindings (rev 2)                              |
+| `Ctrl u`    | `Cmd Shift Left_Arrow, Delete_or_Backspace`                        | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Bash style Emacs key bindings (rev 2)                              |
+| `Alt v`     | `Page_Up`                                                          | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
+| `Alt b`     | `Alt Left_Arrow`                                                   | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
+| `Alt f`     | `Alt Right_Arrow`                                                  | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
+| `Alt d`     | `Alt Delete_Forward`                                               | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
+
+</details>
+
+[Back to index](#index)
+
 
 ## GNU series
 
@@ -108,28 +197,28 @@ Click the black triangle to toggle the Index
 Click the black triangle to see the GNU series
 </summary>
 
-| Keybindings                                                                                                         | Description                                                                 |
-| -----------                                                                                                         | ------------                                                                |
-| [`ctrl a`, `ctrl e`](gnu/01_ctrl-a_ctrl-e.md)                                                                       | Move to line start/end                                                      |
-| [`alt a`, `alt e`](gnu/02_alt-a_alt-e.md)                                                                           | Move to sentence start/end                                                  |
-| [`ctrl b`, `ctrl f`](gnu/03_ctrl-b_ctrl-f.md)                                                                       | Move left/right                                                             |
-| [`alt b`, `alt f`](gnu/04_alt-b_alt-f.md)                                                                           | Move word start/end                                                         |
-| [`ctrl c`, `ctrl l`, `ctrl u`](gnu/05_ctrl-c_ctrl-l_ctrl-u.md)                                                      | Cancel, redraw screen, delete to line start                                 |
-| [`alt c`, `alt l`, `alt u`](gnu/06_alt-c_alt-l_alt-u.md)                                                            | Capitalize, lowercase, uppercase word                                       |
-| [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`, `ctrl space`](gnu/07_ctrl-d_ctrl-h_ctrl-w_ctrl-delete_ctrl-space.md) | Delete left/left/right/word start, set mark                                 |
-| [`alt d`, `alt delete`, `alt h`, `alt w`, `alt space`](gnu/08_alt-d_alt-h_alt-w_alt-delete_alt-space.md)            | Delete word end/start, kill/save region, delete whitespace                  |
-| [`ctrl g`, `ctrl r`, `ctrl s`](gnu/09_ctrl-g_ctrl-r_ctrl-s.md)                                                      | Cancel, reverse search, search                                              |
-| [`alt g`, `alt r`, `alt s`](gnu/10_alt-g_alt-r_alt-s.md)                                                            | Move prefix, revert line or top/middle/bottom, search prefix                |
-| [`ctrl i`, `ctrl n`, `ctrl p`](gnu/11_ctrl-i_ctrl-n_ctrl-p.md)                                                      | Indent/complete, next, previous down                                        |
-| [`alt i`, `alt n`, `alt p`](gnu/12_alt-i_alt-n_alt-p.md)                                                            | Indent, none, none                                                          |
-| [`ctrl j`, `ctrl m`, `ctrl o`](gnu/13_ctrl-j_ctrl-m_ctrl-o.md)                                                      | Accept/new line, accept/new line, accept/new line                           |
-| [`alt j`, `alt m`, `alt o`](gnu/14_alt-j_alt-m_alt-o.md)                                                            | Accept/new line, back to indentation, format prefix                         |
-| [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](gnu/15_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md)               | Kill to line end, paste from kill ring, undo, undo                          |
-| [`alt k`, `alt y`, `alt dash`, `alt backslash`](gnu/16_alt-k_alt-y_alt-dash_alt-backslash.md)                       | Kill to sentence end, rotate kill ring, pass negative argument, expand word |
-| [`ctrl q`, `ctrl v`](gnu/17_ctrl-q_ctrl-v.md)                                                                      | Literal insert, literal insert or page down                                 |
-| [`alt q`, `alt v`](gnu/18_alt-q_alt-v.md)                                                                          | Realign text, page up                                                       |
-| [`ctrl t`, `ctrl x`, `ctrl z`](gnu/19_ctrl-t_ctrl-x_ctrl-z.md)                                                      | Transpose characters, prefix, suspend                                       |
-| [`alt t`, `alt x`, `alt z`](gnu/20_alt-t_alt-x_alt-z.md)                                                            | Transpose words, run command by name, zap to character                      |
+| Keybindings                                                                                                              | Description                                                                 |
+| -----------                                                                                                              | ------------                                                                |
+| [`ctrl a`, `ctrl e`](gnu/101_gnu_ctrl-a_ctrl-e.md)                                                                       | Move to line start/end                                                      |
+| [`alt a`, `alt e`](gnu/102_gnu_alt-a_alt-e.md)                                                                           | Move to sentence start/end                                                  |
+| [`ctrl b`, `ctrl f`](gnu/103_gnu_ctrl-b_ctrl-f.md)                                                                       | Move left/right                                                             |
+| [`alt b`, `alt f`](gnu/104_gnu_alt-b_alt-f.md)                                                                           | Move word start/end                                                         |
+| [`ctrl c`, `ctrl l`, `ctrl u`](gnu/105_gnu_ctrl-c_ctrl-l_ctrl-u.md)                                                      | Cancel, redraw screen, delete to line start                                 |
+| [`alt c`, `alt l`, `alt u`](gnu/106_gnu_alt-c_alt-l_alt-u.md)                                                            | Capitalize, lowercase, uppercase word                                       |
+| [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`, `ctrl space`](gnu/107_gnu_ctrl-d_ctrl-h_ctrl-w_ctrl-delete_ctrl-space.md)  | Delete left/left/right/word start, set mark                                 |
+| [`alt d`, `alt delete`, `alt h`, `alt w`, `alt space`](gnu/108_gnu_alt-d_alt-h_alt-w_alt-delete_alt-space.md)            | Delete word end/start, kill/save region, delete whitespace                  |
+| [`ctrl g`, `ctrl r`, `ctrl s`](gnu/109_gnu_ctrl-g_ctrl-r_ctrl-s.md)                                                      | Cancel, reverse search, search                                              |
+| [`alt g`, `alt r`, `alt s`](gnu/110_gnu_alt-g_alt-r_alt-s.md)                                                            | Move prefix, revert line or top/middle/bottom, search prefix                |
+| [`ctrl i`, `ctrl n`, `ctrl p`](gnu/111_gnu_ctrl-i_ctrl-n_ctrl-p.md)                                                      | Indent/complete, next, previous down                                        |
+| [`alt i`, `alt n`, `alt p`](gnu/112_gnu_alt-i_alt-n_alt-p.md)                                                            | Indent, none, none                                                          |
+| [`ctrl j`, `ctrl m`, `ctrl o`](gnu/113_gnu_ctrl-j_ctrl-m_ctrl-o.md)                                                      | Accept/new line, accept/new line, accept/new line                           |
+| [`alt j`, `alt m`, `alt o`](gnu/114_gnu_alt-j_alt-m_alt-o.md)                                                            | Accept/new line, back to indentation, format prefix                         |
+| [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](gnu/115_gnu_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md)               | Kill to line end, paste from kill ring, undo, undo                          |
+| [`alt k`, `alt y`, `alt dash`, `alt backslash`](gnu/116_gnu_alt-k_alt-y_alt-dash_alt-backslash.md)                       | Kill to sentence end, rotate kill ring, pass negative argument, expand word |
+| [`ctrl q`, `ctrl v`](gnu/117_gnu_ctrl-q_ctrl-v.md)                                                                       | Literal insert, literal insert or page down                                 |
+| [`alt q`, `alt v`](gnu/118_gnu_alt-q_alt-v.md)                                                                           | Realign text, page up                                                       |
+| [`ctrl t`, `ctrl x`, `ctrl z`](gnu/119_gnu_ctrl-t_ctrl-x_ctrl-z.md)                                                      | Transpose characters, prefix, suspend                                       |
+| [`alt t`, `alt x`, `alt z`](gnu/120_gnu_alt-t_alt-x_alt-z.md)                                                            | Transpose words, run command by name, zap to character                      |
 
 </details>
 
@@ -140,38 +229,38 @@ Click the black triangle to see the GNU series
 Click the black triangle to see the Vim series
 </summary>
 
-| Mode   | Keybindings                                                                                                                   | Description                                                                                                       |
-| ------ | -----------                                                                                                                   | ------------                                                                                                      |
-| Insert | [`ctrl a`, `ctrl e`](gnu/21_vim-insert_ctrl-a_ctrl-e.md)                                                                      | Move to line start/end                                                                                            |
-| Insert | [`alt a`, `alt e`](gnu/22_vim-insert_alt-a_alt-e.md)                                                                          | Move to sentence start/end                                                                                        |
-| Insert | [`ctrl b`, `ctrl f`](gnu/23_vim-insert_ctrl-b_ctrl-f.md)                                                                      | Move left/right                                                                                                   |
-| Insert | [`alt b`, `alt f`](gnu/24_vim-insert_alt-b_alt-f.md)                                                                          | Move word start/end                                                                                               |
-| Insert | [`ctrl c`, `ctrl l`, `ctrl u`](gnu/25_vim-insert_ctrl-c_ctrl-l_ctrl-u.md)                                                     | Cancel, redraw screen, delete to line start                                                                       |
-| Insert | [`alt c`, `alt l`, `alt u`](gnu/26_vim-insert_alt-c_alt-l_alt-u.md)                                                           | Capitalize, lowercase, uppercase word                                                                             |
-| Insert | [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`, `ctrl space`](gnu/27_vim-insert_ctrl-d_ctrl-h_ctrl-w_ctrl-delete_ctrl-space.md) | Delete left/left/right/word start, set mark                                                                       |
-| Insert | [`alt d`, `alt delete`, `alt h`, `alt w`, `alt space`](gnu/28_vim-insert_alt-d_alt-h_alt-w_alt-delete_alt-space.md)           | Delete word end/start and kill/save region, delete whitespace                                                     |
-| Insert | [`ctrl g`, `ctrl r`, `ctrl s`](gnu/29_vim-insert_ctrl-g_ctrl-r_ctrl-s.md)                                                     | Cancel, reverse search, search                                                                                    |
-| Insert | [`alt g`, `alt r`, `alt s`](gnu/30_vim-insert_alt-g_alt-r_alt-s.md)                                                           | Move prefix, revert line or top/m-insertiddle/bottom, search prefix                                               |
-| Insert | [`ctrl i`, `ctrl n`, `ctrl p`](gnu/31_vim-insert_ctrl-i_ctrl-n_ctrl-p.md)                                                     | Indent/complete, next, previous down                                                                              |
-| Insert | [`alt i`, `alt n`, `alt p`](gnu/32_vim-insert_alt-i_alt-n_alt-p.md)                                                           | Indent, none, none                                                                                                |
-| Insert | [`ctrl j`, `ctrl m`, `ctrl o`](gnu/33_vim-insert_ctrl-j_ctrl-m_ctrl-o.md)                                                     | Accept/new line, accept/new line, accept/new line                                                                 |
-| Insert | [`alt j`, `alt m`, `alt o`](gnu/34_vim-insert_alt-j_alt-m_alt-o.md)                                                           | Accept/new line, back to indentation, format prefix                                                               |
-| Insert | [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](gnu/35_vim-insert_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md)              | Kill to line end, paste from kill ring, undo, undo                                                                |
-| Insert | [`alt k`, `alt y`, `alt dash`, `alt backslash`](gnu/36_vim-insert_alt-k_alt-y_alt-dash_alt-backslash.md)                      | Kill to sentence end, rotate kill ring, pass negative argument, expand word                                       |
-| Insert | [`ctrl q`, `ctrl v`](gnu/37_vim-insert_ctrl-q_ctrl-v_.md)                                                                     | Literal insert, literal insert or page down                                                                       |
-| Insert | [`alt q`, `alt v`](gnu/38_vim-insert_alt-q_alt-v_.md)                                                                         | Realign text, page up                                                                                             |
-| Insert | [`ctrl t`, `ctrl x`, `ctrl z`](gnu/39_vim-insert_ctrl-t_ctrl-x_ctrl-z.md)                                                     | Transpose characters, prefix, suspend                                                                             |
-| Insert | [`alt t`, `alt x`, `alt z`](gnu/40_vim-insert_alt-t_alt-x_alt-z.md)                                                           | Transpose words, run command by name, zap to character                                                            |
-| Normal | [`a`, `i`, `A`, `I`, `gi`](gnu/41_vim-normal_a_i.md)                                                                          | Append/insert at cursor, Append/insert at line end/start, enter insert mode at last insert point                  |
-| Normal | [`b`, `e`, `w`, `B`, `E`, `W`, `ge`, `gE`, `gw`](gnu/42_vim-normal_b_e_w.md)                                                  | Move word by word, Move WORD by WORD                                                                              |
-| Normal | [`c`, `d`, `C`, `D`, `gc`, `gd`](gnu/43_vim-normal_c_d.md)                                                                    | Delete and enter insert mode or remain in normal mode                                                             |
-| Normal | [`f`, `t`, `F`, `T`, `gf`, `gt`, `;`, `,`, `g;`, `g,`](gnu/43_vim-normal_f_t_semicolon_comma.md)                              | Move on top of/next to a character                                                                                |
-| Normal | [`gg`, `G`](gnu/43_vim-normal_gg.md)                                                                                          | Move to the top/bottom of a file                                                                                  |
-| Normal | [`h`, `j`, `k`, `l`, `H`, `J`, `L`, `gj`, `gk`](gnu/43_vim-normal_h_j_k_l.md)                                                 | Move left/down/up/right, screen top/bottom                                                                        |
-| Normal | [`m`, `M`, `gm`, `gM`, <kbq>`</kbd>, `'`](gnu/43_vim-normal_m_backtick_singe-quote.md)                                        | Set mark, move to screen/text middle, move to mark                                                                |
-| Normal | [`n`, `N`, `/`, `?`, `gn`](gnu/43_vim-normal_n_slash_question-mark.md)                                                        | Move to next/previous search match, search forward/backward                                                       |
-| Normal | [`o`, `O`, `] space`, `[ space`](gnu/43_vim-normal_o_square-bracket-space.md)                                                 | Add newline below/above and enter insert mode or stay in normal mode the top/bottom of a file or last/next change |
-| Normal | [`p`, `P`, `gp`, `gP`](gnu/43_vim-normal_p.md)                                                                                | Paste after/before cursor                                                                                         |
+| Mode   | Keybindings                                                                                                                    | Description                                                                                                       |
+| ------ | -----------                                                                                                                    | ------------                                                                                                      |
+| Insert | [`ctrl a`, `ctrl e`](vim/201_vim-insert_ctrl-a_ctrl-e.md)                                                                      | Move to line start/end                                                                                            |
+| Insert | [`alt a`, `alt e`](vim/202_vim-insert_alt-a_alt-e.md)                                                                          | Move to sentence start/end                                                                                        |
+| Insert | [`ctrl b`, `ctrl f`](vim/203_vim-insert_ctrl-b_ctrl-f.md)                                                                      | Move left/right                                                                                                   |
+| Insert | [`alt b`, `alt f`](vim/204_vim-insert_alt-b_alt-f.md)                                                                          | Move word start/end                                                                                               |
+| Insert | [`ctrl c`, `ctrl l`, `ctrl u`](vim/205_vim-insert_ctrl-c_ctrl-l_ctrl-u.md)                                                     | Cancel, redraw screen, delete to line start                                                                       |
+| Insert | [`alt c`, `alt l`, `alt u`](vim/206_vim-insert_alt-c_alt-l_alt-u.md)                                                           | Capitalize, lowercase, uppercase word                                                                             |
+| Insert | [`ctrl d`, `ctrl delete`, `ctrl h`, `ctrl w`, `ctrl space`](vim/207_vim-insert_ctrl-d_ctrl-h_ctrl-w_ctrl-delete_ctrl-space.md) | Delete left/left/right/word start, set mark                                                                       |
+| Insert | [`alt d`, `alt delete`, `alt h`, `alt w`, `alt space`](vim/208_vim-insert_alt-d_alt-h_alt-w_alt-delete_alt-space.md)           | Delete word end/start and kill/save region, delete whitespace                                                     |
+| Insert | [`ctrl g`, `ctrl r`, `ctrl s`](vim/209_vim-insert_ctrl-g_ctrl-r_ctrl-s.md)                                                     | Cancel, reverse search, search                                                                                    |
+| Insert | [`alt g`, `alt r`, `alt s`](vim/210_vim-insert_alt-g_alt-r_alt-s.md)                                                           | Move prefix, revert line or top/m-insertiddle/bottom, search prefix                                               |
+| Insert | [`ctrl i`, `ctrl n`, `ctrl p`](vim/211_vim-insert_ctrl-i_ctrl-n_ctrl-p.md)                                                     | Indent/complete, next, previous down                                                                              |
+| Insert | [`alt i`, `alt n`, `alt p`](vim/212_vim-insert_alt-i_alt-n_alt-p.md)                                                           | Indent, none, none                                                                                                |
+| Insert | [`ctrl j`, `ctrl m`, `ctrl o`](vim/213_vim-insert_ctrl-j_ctrl-m_ctrl-o.md)                                                     | Accept/new line, accept/new line, accept/new line                                                                 |
+| Insert | [`alt j`, `alt m`, `alt o`](vim/214_vim-insert_alt-j_alt-m_alt-o.md)                                                           | Accept/new line, back to indentation, format prefix                                                               |
+| Insert | [`ctrl k`, `ctrl y`, `ctrl dash`, `ctrl backslash`](vim/215_vim-insert_ctrl-k_ctrl-y_ctrl-dash_ctrl-backslash.md)              | Kill to line end, paste from kill ring, undo, undo                                                                |
+| Insert | [`alt k`, `alt y`, `alt dash`, `alt backslash`](vim/216_vim-insert_alt-k_alt-y_alt-dash_alt-backslash.md)                      | Kill to sentence end, rotate kill ring, pass negative argument, expand word                                       |
+| Insert | [`ctrl q`, `ctrl v`](vim/217_vim-insert_ctrl-q_ctrl-v_.md)                                                                     | Literal insert, literal insert or page down                                                                       |
+| Insert | [`alt q`, `alt v`](vim/218_vim-insert_alt-q_alt-v_.md)                                                                         | Realign text, page up                                                                                             |
+| Insert | [`ctrl t`, `ctrl x`, `ctrl z`](vim/219_vim-insert_ctrl-t_ctrl-x_ctrl-z.md)                                                     | Transpose characters, prefix, suspend                                                                             |
+| Insert | [`alt t`, `alt x`, `alt z`](vim/220_vim-insert_alt-t_alt-x_alt-z.md)                                                           | Transpose words, run command by name, zap to character                                                            |
+| Normal | [`a`, `i`, `A`, `I`, `gi`](vim/221_vim-normal_a_i.md)                                                                          | Append/insert at cursor, Append/insert at line end/start, enter insert mode at last insert point                  |
+| Normal | [`b`, `e`, `w`, `B`, `E`, `W`, `ge`, `gE`, `gw`](vim/222_vim-normal_b_e_w.md)                                                  | Move word by word, Move WORD by WORD                                                                              |
+| Normal | [`c`, `d`, `C`, `D`, `gc`, `gd`](vim/223_vim-normal_c_d.md)                                                                    | Delete and enter insert mode or remain in normal mode                                                             |
+| Normal | [`f`, `t`, `F`, `T`, `gf`, `gt`, `;`, `,`, `g;`, `g,`](vim/224_vim-normal_f_t_semicolon_comma.md)                              | Move on top of/next to a character                                                                                |
+| Normal | [`gg`, `G`](vim/225_vim-normal_gg.md)                                                                                          | Move to the top/bottom of a file                                                                                  |
+| Normal | [`h`, `j`, `k`, `l`, `H`, `J`, `L`, `gj`, `gk`](vim/226_vim-normal_h_j_k_l.md)                                                 | Move left/down/up/right, screen top/bottom                                                                        |
+| Normal | [`m`, `M`, `gm`, `gM`, <kbq>`</kbd>, `'`](vim/227_vim-normal_m_backtick_single-quote.md)                                       | Set mark, move to screen/text middle, move to mark                                                                |
+| Normal | [`n`, `N`, `/`, `?`, `gn`](vim/228_vim-normal_n_slash_question-mark.md)                                                        | Move to next/previous search match, search forward/backward                                                       |
+| Normal | [`o`, `O`, `] space`, `[ space`](vim/229_vim-normal_o_square-bracket-space.md)                                                 | Add newline below/above and enter insert mode or stay in normal mode the top/bottom of a file or last/next change |
+| Normal | [`p`, `P`, `gp`, `gP`](vim/230_vim-normal_p.md)                                                                                | Paste after/before cursor                                                                                         |
 
 
 </details>
@@ -533,12 +622,15 @@ Click the black triangle to toggle the Ctrl ⌃ keyboard customizations table
 | `Ctrl m`    | `Return_or_Enter`                                                  | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl b`    | `Left_Arrow`                                                       | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl f`    | `Right_Arrow`                                                      | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
+| `Meta f`    | `Option Right_Arrow`                                               | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
+| `Meta b`    | `Option Left_Arrow`                                                | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
+| `Meta d`    | `Option Delete_Forward`                                            | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
 | `Ctrl n`    | `Down_Arrow`                                                       | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl p`    | `Up_Arrow`                                                         | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl v`    | `Page_Down`                                                        | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl a`    | `Home` or `Cmd Left_Arrow`                                         | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl e`    | `End` or `Cmd Right_Arrow`                                         | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl w`    | `Alt Delete_or_Backspace`                                          | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Bash style Emacs key bindings (rev 2)                              |
+| `Ctrl w`    | `Option Delete_or_Backspace`                                       | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Bash style Emacs key bindings (rev 2)                              |
 | `Ctrl u`    | `Cmd Shift Left_Arrow, Delete_or_Backspace`                        | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Bash style Emacs key bindings (rev 2)                              |
 
 </details>
@@ -784,60 +876,6 @@ Click the black triangle to toggle the Cmd ⌘ keymap table
 </details>
 
 [Back to index](#index)
-
-## MacOS apps
-
-Here are some of my favorite 3rd party MacOS applications (I'm planning a video for each one!):
-
-### Alfred
-### AltTab
-### Amethyst
-
-### Anaconda
-Install Python, R, and code editors
-
-### CopyQ
-### Jetbrains IDEs
-
-### Karabiner
-
-<details>
-<summary>
-Click the black triangle to toggle the Karabiner keyboard customization table
-</summary>
-
-
-| Before      | After                                                              | Import name                                                                                  | Rule name                                                          |
-| ----------- | ------------------------------------------------------------------ | ------------------------------------------------------------------                           | ------------------------------------------------------------------ |
-| `Caps Lock` | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  | [Change caps_lock key (rev 4)](https://ke-complex-modifications.pqrs.org/#caps_lock)         | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  |
-| `Enter`     | `Ctrl` when pressed with other keys, `Enter` when pressed alone    | [Change return to control](https://ke-complex-modifications.pqrs.org/#return_to_ctrl)        | `Ctrl` when pressed with other keys, `Enter` when pressed alone    |
-| `Ctrl d`    | `Delete_Forward`                                                   | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl h`    | `Delete_or_Backspace`                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl i`    | `Tab`                                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl [`    | `Escape`                                                           | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl m`    | `Return_or_Enter`                                                  | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl b`    | `Left_Arrow`                                                       | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl f`    | `Right_Arrow`                                                      | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl n`    | `Down_Arrow`                                                       | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl p`    | `Up_Arrow`                                                         | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl v`    | `Page_Down`                                                        | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl a`    | `Home` or `Cmd Left_Arrow`                                         | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl e`    | `End` or `Cmd Right_Arrow`                                         | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
-| `Ctrl w`    | `Alt Delete_or_Backspace`                                          | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Bash style Emacs key bindings (rev 2)                              |
-| `Ctrl u`    | `Cmd Shift Left_Arrow, Delete_or_Backspace`                        | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Bash style Emacs key bindings (rev 2)                              |
-| `Alt v`     | `Page_Up`                                                          | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
-| `Alt b`     | `Alt Left_Arrow`                                                   | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
-| `Alt f`     | `Alt Right_Arrow`                                                  | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
-| `Alt d`     | `Alt Delete_Forward`                                               | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [option+keys] (rev 5)                           |
-
-</details>
-
-[Back to index](#index)
-
-
-### RStudio
-### Vimac
-### VimR
 
 ## Command Line Tools
 
