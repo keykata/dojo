@@ -9,44 +9,77 @@ Train your fingers to
 ## Frequently Asked Questions (FAQ)
 
 ### What skills can I learn and practice here?
-1. Computer Programming
-2. Git Version Control
+- Computer Programming
+- Git Version Control
+- Writing and editing text using a keyboard
+- Internet browsing
+
+### Is there any setup required?
+You can complete the
+- [GNU kata](gnu-kata)
+- [Vim kata](vim-kata)
+- [Zsh kata](zsh-kata)
+with
+  - a UNIX terminal via
+    - MacOS,
+    - Linux, or
+    - Windows Subsystem for Linux (WSL)
+  - a code editor, like VSCode
+  - GNU Emacs
+
+You can complete the [Web kata](web-kata) in Firefox or any Chromium-based
+browser (Chrome, Brave, etc.).
+
+Setup requirements are discussed at the beginning of each kata, so you can jump
+right in and deal with setup along the way as needed.
+
+If you want to be prepared for everything, you can complete all of the setup
+kata in one of the two OS-specific kata:
+
+- [Mac kata](#mac-kata)
+- [Win kata](#win-kata)
+
+In addition to getting ready for the kata, you can set up and learn about the
+tools listed below.
+
+| Tools                | MacOS                                                             | Windows                                                                                                                 |
+| -----------          | --------------                                                    | -------------                                                                                                           |
+| Terminal             | Built-in and [iTerm2](https://iterm2.com/)                        | [Windows Terminal](https://github.com/microsoft/terminal#welcome-to-the-windows-terminal-console-and-command-line-repo) |
+| UNIX Shell           | Built-in (zsh)                                                    | [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10)                               |
+| GUI Navigator        | [Vimac](https://vimacapp.com/)                                    | [hunt-n-peck](https://github.com/zsims/hunt-and-peck)                                                                   |
+| Window Manager       | [Slate](https://github.com/jigish/slate#about-slate)              | PowerToys [FancyZones](https://docs.microsoft.com/en-us/windows/powertoys/fancyzones)                                   |
+| Keyboard Customizer  | [Karabiner](https://karabiner-elements.pqrs.org/)                 | PowerToys [Keyboard Manager](https://docs.microsoft.com/en-us/windows/powertoys/keyboard-manager)                       |
+| Application Switcher | Built-in, [altTab](https://alt-tab-macos.netlify.app/), and Slate | Built-in                                                                                                                |
+| Quick Launcher       | Built-in and [Alfred](https://www.alfredapp.com/)                 | PowerToys [Run](https://docs.microsoft.com/en-us/windows/powertoys/run) Manager                                         |
+| Shortcut Guide       | [Cheatsheet](https://mediaatelier.com/CheatSheet/)                | PowerToys [Shortcut Guide](https://docs.microsoft.com/en-us/windows/powertoys/shortcut-guide)                           |
 
 ### What keyboard shortcuts are covered?
-1. [GNU Emacs](https://www.gnu.org/software/emacs/manual/html_node/emacs/Key-Index.html#Key-Index)
-2. [GNU Readline](https://www.gnu.org/software/bash/manual/html_node/Function-Index.html)
-3. [Vim](http://vimdoc.sourceforge.net/)
+- [GNU Emacs](https://www.gnu.org/software/emacs/manual/html_node/emacs/Key-Index.html#Key-Index)
+- [GNU Readline](https://www.gnu.org/software/bash/manual/html_node/Function-Index.html)
+- [Vim](http://vimdoc.sourceforge.net/)
 
 ### Where can I use and practice these shortcuts?
 1. Terminal: MacOS, Linux, and Windows Subsystem for Linux (WSL)
-2. Web browser: Firefox or any Chromium-based browser (e.g. Chrome, Edge)
+2. Web browser: Firefox or any Chromium-based browser (e.g. Chrome, Brave)
 3. Code editor: PyCharm, RStudio, or VSCode
 4. Python or R console: IPython, ptpython, or radian
 5. Jupyter notebook: JupyterLab or classic notebook interface
 
 ### How can I find out if KeyKata is right for me?
 Basic information regarding KeyKata is in [Welcome to KeyKata](00_welcome_to_keykata.md).
-To get a idea of what KeyKata is like, try the following three kata in the [GNU series](#gnu-series):
+To get a idea of what KeyKata is like, try the following three kata in the [GNU kata](#gnu-kata):
 1. [Move to start and end of current line with ctrl a and ctrl e](gnu/01_ctrl-a-and-ctrl-e.md)
 2. [Move left and right with ctrl b and ctrl f](gnu/03_ctrl-b-and-ctrl-f.md)
 3. [Delete left and right with ctrl h, ctrl d, and ctrl w](gnu/07_ctrl-d_ctrl-h_ctrl-w_ctrl-delete.md)
 
 ### Where should I start?
-- Complete the [GNU series](#gnu-series) to learn Emacs and Readline keybindings
-- Complete the [Vim series](#vim-series) to
+- Complete the [GNU kata](#gnu-kata) to learn GNU Emacs and GNU Readline keybindings
+- Complete the [Vim kata](#vim-kata) to
   - set up and practice Emacs and Readline keybindings in Vim insert mode
-  - learn Vim normal and visual mode keybindings
-- Complete the Web series to learn to use the [Vimium](#vimium) and [Surfingkeys](#surfingkeys) browser extensions
-
-### What will I need?
-
-You can complete most of the GNU series with
-  - A UNIX terminal via
-    - MacOS,
-    - Linux, or
-    - Windows Subsystem for Linux (WSL)
-  - A code editor, like [RStudio](#rstudio), with Emacs mode enabled
-  - GNU Emacs (terminal or GUI)
+  - learn Vim normal, visual, command mode keybindings
+- Complete the [Web kata](web-kata) to learn to use the
+  - [Vimium](#vimium) and
+  - [Surfingkeys](#surfingkeys) browser extensions
 
 ## Index
 
@@ -67,34 +100,36 @@ Click the black triangle to toggle the Index
 - Down ↓
 - Up ↑
 - Right →
-0. [Mac series](#mac-series)
+
+- [Mac kata](#mac-kata)
+  - [Vimari](#vimari)
+  - [Vimac](#vimac)
+  - [Slate](#slate)
+  - [Karabiner](#karabiner)
+  - [CopyQ](#copyq)
   - [Alfred](#alfred)
   - [AltTab](#alttab)
   - [Rectangle](#Rectangle)
   - [Anaconda](#anaconda)
-  - [CopyQ](#copyq)
-  - [Jetbrains IDEs](#jetbrains-ides)
-  - [Karabiner](#karabiner)
-  - [RStudio](#rstudio)
   - [VimR](#vimr)
-  - [Vimac](#vimac)
-  - [Vimari](#vimari)
-1. [GNU series](#gnu-series)
-2. [Vim series](#vim-series)
-3. [Web series](#web-series)
-4. [Browser keybindings](#browser-keybindings)
-  - [Vimium](#vimium)
-  - [Surfingkeys keymap](#surfingkeys)
-5. [Ctrl ⌃ keybindings](#ctrl-keybindings)
-  - [Ctrl ⌃ setup](#ctrl-setup)
-  - [Ctrl ⌃ keymap](#ctrl-keymap)
-6. [Alt ⌥ keybindings](#alt-keybindings)
-  - [Alt ⌥ setup](#alt-setup)
-  - [Alt ⌥ keymap](#alt-keymap)
-7. [Cmd ⌘ keybindings](#alt-keybindings)
   - [Cmd ⌘ setup](#cmd-setup)
   - [Cmd ⌘ keymap](#cmd-keymap)
-8. [Command Line Tools](#command-line-tools)
+- [Win kata](#win-kata)
+  - [PowerToys](#powertoys)
+  - [WSL](#wsl)
+  - [Windows Terminal](#windows-terminal)
+  - [hunt-n-peck](#hunt-n-peck)
+  - [Emacs](#emacs)
+- [GNU kata](#gnu-kata)
+  - [Ctrl ⌃ setup](#ctrl-setup)
+  - [Ctrl ⌃ keymap](#ctrl-keymap)
+  - [Alt ⌥ setup](#alt-setup)
+  - [Alt ⌥ keymap](#alt-keymap)
+- [Vim kata](#vim-kata)
+- [Web kata](#web-kata)
+  - [Vimium](#vimium)
+  - [Surfingkeys](#surfingkeys)
+- [Zsh kata](#zsh-kata)
   - [asciinema](#asciinema)
   - [ffmpeg](#ffmpeg)
   - [tmux](#tmux)
@@ -102,15 +137,19 @@ Click the black triangle to toggle the Index
 
 </details>
 
-## Mac series
+## Mac kata
+
+MacOS-specific shortcuts:
+- [MacOS default shortcuts](https://support.apple.com/en-us/HT201236)
+- MacOS 3rd party App shortcuts
 
 Here are some of my favorite 3rd party MacOS applications (I'm planning a video for each one!):
 
 ### [Vimari](mac/000_mac_vimari.md)
 
 - Install Vimari using App Store
-- Practice scrolling (j / k and d / u)
-- Practice using hints (f)
+- Practice scrolling (`j` / `k` and `d` / `u`)
+- Practice using hints (`f`)
 - Mention options for other browsers (Vimium & Surfingkeys)
 
 ### [Vimac](mac/001_mac_vimac.md)
@@ -118,7 +157,7 @@ Here are some of my favorite 3rd party MacOS applications (I'm planning a video 
 - Install Vimac from vimacapp.com
 - Grant permissions (Accessibility and Input Monitoring)
 - Set shortcuts to toggle the menu bar (similar to Dock toggling shortcut)
-- Access Vimac preferences using custom menu bar shortcut (⌘ ⌥ ;)
+- Access Vimac preferences using custom menu bar shortcut (`⌥ ⌘ ;`)
 - Set Response Delay (0.15)
 - Set key sequences and shortcuts
 - Practice activating modes
@@ -129,11 +168,20 @@ Here are some of my favorite 3rd party MacOS applications (I'm planning a video 
 ### [Karabiner](mac/003_mac_vimac.md)
 - Install brew
 - Install Karabiner-Elements via brew
-- Access Karabiner-Elements preferences using custom menu bar shortcut (⌘ ⌥ ;)
+- Access Karabiner-Elements preferences using custom menu bar shortcut (`⌥ ⌘ ;`)
 - Set up Caps Lock and Enter to work as Control when held
 - Add Emacs and Bash style shortcuts
 
-### [CopyQ](mac/003_mac_vimac.md)
+### [Slate](mac/003_mac_slate.md)
+- Install brew (if not already installed)
+- Install Slate via brew
+- Set up shortcuts via `.slate` configuration file
+- Learn to manage windows
+- Learn to focus windows using `cmd escape` or `alt h / j / k / l`
+- Learn to "throw" windows using `ctrl cmd h / j / k / l`
+- Learn to "nudge" windows using `alt shift h / j / k / l`
+
+### [CopyQ](mac/003_mac_copyq.md)
 - Install brew (if not already installed)
 - Install CopyQ via brew
 - Set up shortcuts
@@ -144,17 +192,139 @@ Here are some of my favorite 3rd party MacOS applications (I'm planning a video 
 ### AltTab
 - Alternative to MacOS App Switcher and Window Alternator
 
-### Rectangle
-- Window manager
-
 ### VimR
 - Vim GUI
+- Can be used by CopyQ to edit clipboard
 
 ### Cheatsheet
 - View shortcuts for a given MacOS App
+- Edit shortcuts for a given MacOS App with CustomShortcuts
 
-### CustomShortcuts
-- Edit shortcuts for a given MacOS App
+<details>
+<summary>
+Click the black triangle to toggle the [MacOS default shortcuts](https://developer.apple.com/design/human-interface-guidelines/macos/user-interaction/keyboard/#reserved-and-expected-keyboard-shortcuts) table
+</summary>
+
+| Keyboard Shortcut             | Used by the System | Action                                                                                                                                                                              |
+|-------------------------------|--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Command-Space                 | Y                  | Show or hide the Spotlight search field (when multiple languages are installed, may rotate through enabled script systems).                                                         |
+| Shift-Command-Space           | Y                  | Varies. Apple Reserved.                                                                                                                                                             |
+| Option-Command-Space          | Y                  | Show the Spotlight search results window (when multiple languages are installed, may rotate through keyboard layouts and input methods within a script).                            |
+| Control-Command-Space         | Y                  | Show the Special Characters window.                                                                                                                                                 |
+| Shift-Tab                     | Y                  | Navigate through controls in a reverse direction.                                                                                                                                   |
+| Command-Tab                   | Y                  | Move forward to the next most recently used app in a list of open apps.                                                                                                             |
+| Shift-Command-Tab             | Y                  | Move backward through a list of open apps (sorted by recent use).                                                                                                                   |
+| Control-Tab                   | Y                  | Move focus to the next group of controls in a dialog or the next table (when Tab moves to the next cell).                                                                           |
+| Control-Shift-Tab             | Y                  | Move focus to the previous group of controls.                                                                                                                                       |
+| Option-Command-Esc            | Y                  | Open the Force Quit dialog.                                                                                                                                                         |
+| Control-Command-Eject         | Y                  | Quit all apps (after changes have been saved to open documents) and restart the computer.                                                                                           |
+| Control-Option-Command-Eject  | Y                  | Quit all apps (after changes have been saved to open documents) and shut the computer down.                                                                                         |
+| Control-F1                    | Y                  | Toggle full keyboard access on or off.                                                                                                                                              |
+| Control-F2                    | Y                  | Move focus to the menu bar.                                                                                                                                                         |
+| Control- F3                   | Y                  | Move focus to the Dock.                                                                                                                                                             |
+| Control-F4                    | Y                  | Move focus to the active (or next) window.                                                                                                                                          |
+| Control-Shift-F4              | Y                  | Move focus to the previously active window.                                                                                                                                         |
+| Control-F5                    | Y                  | Move focus to the toolbar.                                                                                                                                                          |
+| Command-F5                    | Y                  | Turn VoiceOver on or off.                                                                                                                                                           |
+| Control-F6                    | Y                  | Move focus to the first (or next) panel.                                                                                                                                            |
+| Control-Shift-F6              | Y                  | Move focus to the previous panel.                                                                                                                                                   |
+| Control-F7                    | Y                  | Temporarily override the current keyboard access mode in windows and dialogs.                                                                                                       |
+| F8                            | Y                  | Varies. Apple Reserved.                                                                                                                                                             |
+| F9                            | Y                  | Varies. Apple Reserved.                                                                                                                                                             |
+| F10                           | Y                  | Varies. Apple Reserved.                                                                                                                                                             |
+| F11                           | Y                  | Show desktop.                                                                                                                                                                       |
+| F12                           | Y                  | Hide or display Dashboard.                                                                                                                                                          |
+| Command-Grave accent          | Y                  | Activate the next open window in the frontmost app.                                                                                                                                 |
+| Shift-Command-Grave accent    | Y                  | Activate the previous open window in the frontmost app.                                                                                                                             |
+| Option-Command-Grave accent   | Y                  | Move focus to the window drawer.                                                                                                                                                    |
+| Command-Hyphen                | Y                  | Decrease the size of the selection.                                                                                                                                                 |
+| Option-Command-Hyphen         | Y                  | Zoom out when screen zooming is on.                                                                                                                                                 |
+| Command-Left bracket          | N                  | Left-align a selection.                                                                                                                                                             |
+| Command-Right bracket         | N                  | Right-align a selection.                                                                                                                                                            |
+| Command-Pipe                  | N                  | Center-align a selection.                                                                                                                                                           |
+| Command-Colon                 | N                  | Display the Spelling window.                                                                                                                                                        |
+| Command-Semicolon             | N                  | Find misspelled words in the document.                                                                                                                                              |
+| Command-Comma                 | N                  | Open the app's preferences window.                                                                                                                                                  |
+| Control-Option-Command-Comma  | Y                  | Decrease screen contrast.                                                                                                                                                           |
+| Control-Option-Command-Period | Y                  | Increase screen contrast.                                                                                                                                                           |
+| Command-Question mark         | N                  | Open the app's Help menu.                                                                                                                                                           |
+| Option-Command-Forward slash  | Y                  | Turn font smoothing on or off.                                                                                                                                                      |
+| Shift-Command-Equal sign      | Y                  | Increase the size of the selection.                                                                                                                                                 |
+| Option-Command-Equal sign     | Y                  | Zoom in when screen zooming is on.                                                                                                                                                  |
+| Shift-Command-3               | Y                  | Capture the screen to a file.                                                                                                                                                       |
+| Control-Shift-Command-3       | Y                  | Capture the screen to the Clipboard.                                                                                                                                                |
+| Shift-Command-4               | Y                  | Capture a selection to a file.                                                                                                                                                      |
+| Control-Shift-Command-4       | Y                  | Capture a selection to the Clipboard.                                                                                                                                               |
+| Option-Command-8              | Y                  | Turn screen zooming on or off.                                                                                                                                                      |
+| Control-Option-Command-8      | Y                  | Invert the screen colors.                                                                                                                                                           |
+| Command-A                     | N                  | Selects every item in a document or window, or all characters in a text field.                                                                                                      |
+| Shift-Command-A               | N                  | Deselects all selections or characters.                                                                                                                                             |
+| Command-B                     | N                  | Boldface the selected text or toggle boldfaced text on and off.                                                                                                                     |
+| Command-C                     | N                  | Copy the selection to the Clipboard.                                                                                                                                                |
+| Shift-Command-C               | N                  | Display the Colors window.                                                                                                                                                          |
+| Option-Command-C              | N                  | Copy the style of the selected text.                                                                                                                                                |
+| Control-Command-C             | N                  | Copy the formatting settings of the selection and store on the Clipboard.                                                                                                           |
+| Option-Command-D              | Y                  | Show or hide the Dock.                                                                                                                                                              |
+| Control-Command-D             | N                  | Display the definition of the selected word in the Dictionary app.                                                                                                                  |
+| Command-E                     | N                  | Use the selection for a find operation.                                                                                                                                             |
+| Command-F                     | N                  | Open a Find window.                                                                                                                                                                 |
+| Option-Command-F              | N                  | Jump to the search field control.                                                                                                                                                   |
+| Control-Command-F             | N                  | Enter full screen.                                                                                                                                                                  |
+| Command-G                     | N                  | Find the next occurrence of the selection.                                                                                                                                          |
+| Shift-Command-G               | N                  | Find the previous occurrence of the selection.                                                                                                                                      |
+| Command-H                     | N                  | Hide the windows of the currently running app.                                                                                                                                      |
+| Option-Command-H              | N                  | Hide the windows of all other running apps.                                                                                                                                         |
+| Command-I                     | N                  | Italicize the selected text or toggle italic text on or off.                                                                                                                        |
+| Command-I                     | N                  | Display an Info window.                                                                                                                                                             |
+| Option-Command-I              | N                  | Display an inspector window.                                                                                                                                                        |
+| Command-J                     | N                  | Scroll to a selection.                                                                                                                                                              |
+| Command-M                     | N                  | Minimize the active window to the Dock.                                                                                                                                             |
+| Option-Command-M              | N                  | Minimize all windows of the active app to the Dock.                                                                                                                                 |
+| Command-N                     | N                  | Open a new document.                                                                                                                                                                |
+| Command-O                     | N                  | Display a dialog for choosing a document to open.                                                                                                                                   |
+| Command-P                     | N                  | Display the Print dialog.                                                                                                                                                           |
+| Shift-Command-P               | N                  | Display the Page Setup dialog.                                                                                                                                                      |
+| Command-Q                     | N                  | Quit the app.                                                                                                                                                                       |
+| Shift-Command-Q               | Y                  | Log out the current user.                                                                                                                                                           |
+| Option-Shift-Command-Q        | Y                  | Log out the current user without confirmation.                                                                                                                                      |
+| Command-S                     | N                  | Save a new document or save a version of a document.                                                                                                                                |
+| Shift-Command-S               | N                  | Duplicate the active document or initiate a Save As.                                                                                                                                |
+| Command-T                     | N                  | Display the Fonts window.                                                                                                                                                           |
+| Option-Command-T              | N                  | Show or hide a toolbar.                                                                                                                                                             |
+| Command-U                     | N                  | Underline the selected text or turn underlining on or off.                                                                                                                          |
+| Command-V                     | N                  | Paste the Clipboard contents at the insertion point.                                                                                                                                |
+| Shift-Command-V               | N                  | Paste as (Paste as Quotation, for example).                                                                                                                                         |
+| Option-Command-V              | N                  | Apply the style of one object to the selection.                                                                                                                                     |
+| Option-Shift-Command-V        | N                  | Paste the Clipboard contents at the insertion point and apply the style of the surrounding text to the inserted object.                                                             |
+| Control-Command-V             | N                  | Apply formatting settings to the selection.                                                                                                                                         |
+| Command-W                     | N                  | Close the active window.                                                                                                                                                            |
+| Shift-Command-W               | N                  | Close a file and its associated windows.                                                                                                                                            |
+| Option-Command-W              | N                  | Close all windows in the app.                                                                                                                                                       |
+| Command-X                     | N                  | Remove the selection and store on the Clipboard.                                                                                                                                    |
+| Command-Z                     | N                  | Undo the previous operation.                                                                                                                                                        |
+| Shift-Command-Z               | N                  | Redo (when Undo and Redo are separate commands rather than toggled using Command-Z).                                                                                                |
+| Command-Right arrow           | Y                  | Change the keyboard layout to current layout of Roman script.                                                                                                                       |
+| Shift-Command-Right arrow     | Y                  | Extend selection to the next semantic unit, typically the end of the current line.                                                                                                  |
+| Shift-Right arrow             | Y                  | Extend selection one character to the right.                                                                                                                                        |
+| Option-Shift-Right arrow      | Y                  | Extend selection to the end of the current word, then to the end of the next word.                                                                                                  |
+| Control-Right arrow           | Y                  | Move focus to another value or cell within a view, such as a table.                                                                                                                 |
+| Command-Left arrow            | Y                  | Change the keyboard layout to current layout of system script.                                                                                                                      |
+| Shift-Command-Left arrow      | Y                  | Extend selection to the previous semantic unit, typically the beginning of the current line.                                                                                        |
+| Shift-Left arrow              | Y                  | Extend selection one character to the left.                                                                                                                                         |
+| Option-Shift-Left arrow       | Y                  | Extend selection to the beginning of the current word, then to the beginning of the previous word.                                                                                  |
+| Control-Left arrow            | Y                  | Move focus to another value or cell within a view, such as a table.                                                                                                                 |
+| Shift-Command-Up arrow        | Y                  | Extend selection upward in the next semantic unit, typically the beginning of the document.                                                                                         |
+| Shift-Up arrow                | Y                  | Extend selection to the line above, to the nearest character boundary at the same horizontal location.                                                                              |
+| Option-Shift-Up arrow         | Y                  | Extend selection to the beginning of the current paragraph, then to the beginning of the next paragraph.                                                                            |
+| Control-Up arrow              | Y                  | Move focus to another value or cell within a view, such as a table.                                                                                                                 |
+| Shift-Command-Down arrow      | Y                  | Extend selection downward in the next semantic unit, typically the end of the document.                                                                                             |
+| Shift-Down arrow              | Y                  | Extend selection to the line below, to the nearest character boundary at the same horizontal location.                                                                              |
+| Option-Shift-Down arrow       | Y                  | Extend selection to the end of the current paragraph, then to the end of the next paragraph (include the paragraph terminator, such as Return, in cut, copy, and paste operations). |
+| Control-Down arrow            | Y                  | Move focus to another value or cell within a view, such as a table.                                                                                                                 |
+
+</details>
+
+[Back to index](#index)
 
 <details>
 <summary>
@@ -189,12 +359,11 @@ Click the black triangle to toggle the Karabiner keyboard customization table
 
 [Back to index](#index)
 
-
-## GNU series
+## GNU kata
 
 <details>
 <summary>
-Click the black triangle to see the GNU series
+Click the black triangle to see the GNU kata
 </summary>
 
 | Keybindings                                                                                                              | Description                                                                 |
@@ -222,11 +391,11 @@ Click the black triangle to see the GNU series
 
 </details>
 
-## Vim series
+## Vim kata
 
 <details>
 <summary>
-Click the black triangle to see the Vim series
+Click the black triangle to see the Vim kata
 </summary>
 
 | Mode   | Keybindings                                                                                                                    | Description                                                                                                       |
@@ -265,23 +434,23 @@ Click the black triangle to see the Vim series
 
 </details>
 
-## Web series
+## Web kata
 
 TODO
 
-## Browser keybindings
+### Browser keybindings
 
-These browser keybindings will work for everyone who uses Firefox or a Chromium-based browser (e.g. Chrome, Edge).
-For Safari, I recommend [Vimari](https://github.com/televator-apps/vimari#vimari).
-
-Before starting to work through the keymaps for [Vimium](#vimium-keymap) and [Surfingkeys](#surfingkeys-keymap),
+These browser keybindings will work for everyone who uses Firefox or a
+Chromium-based browser (e.g. Chrome, Edge). Before starting to work through the
+keymaps for [Vimium](#vimium-keymap) and [Surfingkeys](#surfingkeys-keymap),
 you need to
 1. [install Vimium](https://github.com/philc/vimium#vimium---the-hackers-browser)
 2. [install Surfingkeys](https://github.com/brookhong/Surfingkeys#surfingkeys---expand-your-browser-with-javascript-and-keyboard)
 
-If don't want to install any browser extensions, you can at least get scrolling via [Vimac](#vimac) (MacOS only!).
+If don't want to install any browser extensions, you can at least get scrolling
+via the [Vimac](#vimac) App (MacOS only!).
 
-### Vimium
+#### Vimium
 
 <details>
 <summary>
@@ -354,7 +523,7 @@ Click the black triangle to toggle the Vimium keymap table
 
 [Back to index](#index)
 
-### Surfingkeys
+#### Surfingkeys
 
 <details>
 <summary>
