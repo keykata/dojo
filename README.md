@@ -39,6 +39,18 @@ kata in one of the two OS-specific kata:
 - [Mac kata](#mac-kata)
 - [Win kata](#win-kata)
 
+The goal of the Windows Setup kata is to set up the following tools
+- Shell: Windows Subsystem for Linux
+- Terminal: Windows Terminal
+- GUI Navigator: `hunt-n-peck`
+- Clipboard manager: `CopyQ`
+- Window manager: PowerToys FancyZones
+- Keyboard manager: PowerToys Keyboard Manager
+- Shortcut guide: PowerToys Shortcut Guide
+- Quick Launcher: PowerToys Run
+
+To record the Windows Setup kata, I used the [VMware Fusion Player](https://vmware.com/go/get-fusionplayer-key) (Personal Use License) and the [Windows ISO](https://vmware.com/go/get-fusionplayer-key) on a MacBook.
+
 In addition to getting ready for the kata, you can set up and learn about the
 tools listed below.
 
@@ -161,7 +173,7 @@ Here are some of my favorite 3rd party MacOS applications (I'm planning a video 
 - Set Response Delay (0.15)
 - Set key sequences and shortcuts
 - Practice activating modes
-- Practice scrolling (j / k and d / u)
+- Practice scrolling (`j` / `k` and `d` / `u`)
 - Practice using hint mode
 - Mention options for Windows and Linux (e.g. hunt-n-peck)
 
@@ -171,6 +183,33 @@ Here are some of my favorite 3rd party MacOS applications (I'm planning a video 
 - Access Karabiner-Elements preferences using custom menu bar shortcut (`⌥ ⌘ ;`)
 - Set up Caps Lock and Enter to work as Control when held
 - Add Emacs and Bash style shortcuts
+
+#### GNU-MacOS combinations:
+
+To make the Ctrl Cmd combinations work,
+add "command" as an optional key to `Ctrl B/D/F/H/N/P`
+to the `karabiner.json` file.
+
+##### `Ctrl Cmd` combinations
+
+- `⌃ ⌘ B`: go to beginning of line (`Cmd Left`, same as `Ctrl A`)
+- `⌃ ⌘ D`: delete to end of line (same as `Ctrl K`)
+- `⌃ ⌘ F`: go to end of line (`Cmd Right`, same as `Ctrl E`)
+- `⌃ ⌘ H`: delete to beginning of line (same as `Ctrl U`)
+- `⌃ ⌘ N`: go to bottom or open (`Cmd Down`)
+- `⌃ ⌘ P`: go to top or up one level (`Cmd Up`)
+
+##### `Ctrl Shift` combinations
+- `⌃ ⇧ B`: select left (`Shift Left`)
+- `⌃ ⇧ F`: select right (`Shift Right`)
+- `⌃ ⇧ N`: select down (`Shift Down`)
+- `⌃ ⇧ P`: select up (`Shift Up`)
+- `⌃ ⇧ V`: select page down (`Shift Page_Down`)
+
+##### `Alt Shift` combinations
+- `⌥ ⇧ B`: select word left (`Shift Left`)
+- `⌥ ⇧ F`: select word right (`Shift Right`)
+- `⌥ ⇧ V`: select page up (`Shift Page_Up`)
 
 ### [Slate](mac/003_mac_slate.md)
 - Install brew (if not already installed)
@@ -334,7 +373,7 @@ Click the black triangle to toggle the Karabiner keyboard customization table
 
 | Before      | After                                                              | Import name                                                                                  | Rule name                                                          |
 | ----------- | ------------------------------------------------------------------ | ------------------------------------------------------------------                           | ------------------------------------------------------------------ |
-| `Caps Lock` | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  | [Change caps_lock key (rev 4)](https://ke-complex-modifications.pqrs.org/#caps_lock)         | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  |
+| `Caps Lock` | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  | [Change caps_lock key (rev 5)](https://ke-complex-modifications.pqrs.org/#caps_lock)         | `Ctrl` when pressed with other keys, `Escape` when pressed  alone  |
 | `Enter`     | `Ctrl` when pressed with other keys, `Enter` when pressed alone    | [Change return to control](https://ke-complex-modifications.pqrs.org/#return_to_ctrl)        | `Ctrl` when pressed with other keys, `Enter` when pressed alone    |
 | `Ctrl d`    | `Delete_Forward`                                                   | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
 | `Ctrl h`    | `Delete_or_Backspace`                                              | [Emacs key bindings (rev 12)](https://ke-complex-modifications.pqrs.org/#emacs_key_bindings) | Emacs key bindings [control+keys] (rev 10)                         |
@@ -839,7 +878,7 @@ Click the black triangle to toggle the Ctrl ⌃ keymap table
 | `Ctrl t`     | Transpose characters                                      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                |
 | `Ctrl u`     | Kill to line start                                        | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
 | `Ctrl v`     | Insert literally<sup>[2](#page-down)</sup>                | :x:                | :white_check_mark: | :x:                | :white_check_mark: |
-| `Ctrl w`     | Kill previous word                                        | :white_check_mark: | :x:                | :x:                | :x:                |
+| `Ctrl w`     | Kill previous word                                        | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | `Ctrl x`     | Prefix for chord bindings                                 | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
 | `Ctrl y`     | Yank / paste from killring                                | :white_check_mark: | :white_check_mark: | :x:                | :x:                |
 | `Ctrl z`     | Put process in background                                 | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
