@@ -17,6 +17,7 @@ Train your fingers to
 ### Is there any setup required?
 You can complete the
 - [GNU kata](gnu-kata)
+- [Tmux kata](tmux-kata)
 - [Vim kata](vim-kata)
 - [Zsh kata](zsh-kata)
 with
@@ -27,7 +28,7 @@ with
   - a code editor, like VSCode
   - GNU Emacs
 
-You can complete the [Web kata](web-kata) in Firefox or any Chromium-based
+You can complete the [Browser kata](browser-kata) in Firefox or any Chromium-based
 browser (Chrome, Brave, etc.).
 
 Setup requirements are discussed at the beginning of each kata, so you can jump
@@ -69,6 +70,7 @@ tools listed below.
 - [GNU Emacs](https://www.gnu.org/software/emacs/manual/html_node/emacs/Key-Index.html#Key-Index)
 - [GNU Readline](https://www.gnu.org/software/bash/manual/html_node/Function-Index.html)
 - [Vim](http://vimdoc.sourceforge.net/)
+- [Tmux](https://man7.org/linux/man-pages/man1/tmux.1.html#DEFAULT_KEY_BINDINGS)
 
 ### Where can I use and practice these shortcuts?
 1. Terminal: MacOS, Linux, and Windows Subsystem for Linux (WSL)
@@ -89,7 +91,7 @@ To get a idea of what KeyKata is like, try the following three kata in the [GNU 
 - Complete the [Vim kata](#vim-kata) to
   - set up and practice Emacs and Readline keybindings in Vim insert mode
   - learn Vim normal, visual, command mode keybindings
-- Complete the [Web kata](web-kata) to learn to use the
+- Complete the [Browser kata](browser-kata) to learn to use the
   - [Vimium](#vimium) and
   - [Surfingkeys](#surfingkeys) browser extensions
 
@@ -137,14 +139,14 @@ Click the black triangle to toggle the Index
   - [Ctrl ⌃ keymap](#ctrl-keymap)
   - [Alt ⌥ setup](#alt-setup)
   - [Alt ⌥ keymap](#alt-keymap)
+- [Tmux kata](#tmux-kata)
 - [Vim kata](#vim-kata)
-- [Web kata](#web-kata)
+- [Browser kata](#browser-kata)
   - [Vimium](#vimium)
   - [Surfingkeys](#surfingkeys)
 - [Zsh kata](#zsh-kata)
   - [asciinema](#asciinema)
   - [ffmpeg](#ffmpeg)
-  - [tmux](#tmux)
   - [miniconda](#miniconda)
 
 </details>
@@ -430,6 +432,59 @@ Click the black triangle to see the GNU kata
 
 </details>
 
+## Tmux kata
+
+<details>
+<summary>
+Click the black triangle to see the Tmux kata
+</summary>
+
+| Key   | Action                                            | Default      | Vim analog                            | Mnemonic         |
+| --- | ------                                            | -------      | ---------------                       | ---              |
+| +     | resize-pane -U 10                                 | CTRL-<Up>    | CTRL-W_+                              | <Ctrl-w>+ in Vim  |
+| -     | resize-pane -D 10                                 | CTRL-<Down>  | CTRL-W_-                              | <Ctrl-w>- in Vim  |
+| 0     | select-window -t:^                                | None         | :tabl :tablast                        | 0 in Vim          |
+| 9     | select-window -t:$                                | None         | :tabl :tablast                        | Cmd-9 in MacOS    |
+| <     | resize-pane -L 10                                 | CTRL-<Left>  | CTRL-W_<                              | <Ctrl-w>< in Vim  |
+| =     | select-layout -E                                  | None         | CTRL-W_=                              | Equal             |
+| >     | resize-pane -R 10                                 | CTRL-<Right> | CTRL-W_>                              | <Ctrl-w>> in Vim  |
+| C     | select-pane -t :.- \; resize-pane -Z              | None         | CTRL-W_c :clo :close                  | Close             |
+| Enter | display-panes                                     | q            | None                                  | Enter pane number |
+| N     | previous-window                                   | p            | :tabp :tabprevious gT :tabN           | :tabN in Vim      |
+| Q     | kill-pane                                         | None         | CTRL-W_q CTRL-W_CTRL-Q                | Quit              |
+| R     | rotate-window -U                                  | None         | CTRL-W_r CTRL-W_CTRL-R                | Rotate            |
+| T     | break-pane                                        | !            | CTRL-W_T                              | Tab               |
+| W     | select-pane -t :.-                                | None         | CTRL-W_W                              | Window            |
+| X     | swap-pane -U                                      | {            | CTRL-W_x CTRL-W_CTRL-X                | eXchange          |
+| a     | choose-session                                    | s            | None                                  | All sessions      |
+| b     | select-pane -t:.-1                                | None         | CTRL-W_b CTRL-W_CTRL-B                | Bottom-left       |
+| c     | select-pane -t :.+ \; resize-pane -Z              | None         | CTRL-W_c :clo :close                  | Close             |
+| d     | detach-client                                     | d            | None                                  | Detach            |
+| e     | select-layout -E                                  | E            | CTRL-W_=                              | Equal/Even        |
+| f     | command-prompt "find-window '%%'"                 | f            | :b :bu :buf :buffer                   | Find              |
+| g     | display-message                                   | i            | CTRL-G :f :fi :file                   | Ctrl-g in Vim     |
+| h     | select-pane -L                                    | <Left>       | CTRL-W_<Left> CTRL-W_CTRL-H CTRL-W_h  | h in Vim          |
+| i     | last-window                                       | l            | g<Tab> CTRL-W_g<Tab> <C-Tab>          | g_CTRL-I in Vim   |
+| j     | select-pane -D                                    | <Down>       | CTRL-W_<Down> CTRL-W_CTRL-J CTRL-W_j  | j in Vim          |
+| k     | select-pane -U                                    | <Up>         | CTRL-W_<Up> CTRL-W_CTRL-K CTRL-W_k    | k in Vim          |
+| l     | select-pane -R                                    | <Right>      | CTRL-W_<Right> CTRL-W_CTRL-L CTRL-W_l | l in Vim          |
+| m     | select-pane -m                                    | m            | m :ma :mark :k                        | Mark              |
+| n     | next-window                                       | n            | :tabn :tabnext gt                     | Next              |
+| o     | resize-pane -Z                                    | z            | CTRL-W_o CTRL-W_CTRL-O :on :only      | Only One          |
+| p     | last-pane                                         | p            | CTRL-W_p CTRL-W_CTRL-P                | Previous Pane     |
+| q     | confirm-before -p "Kill pane #P? (y/n)" kill-pane | x            | CTRL-W_q CTRL-W_CTRL-Q                | Quit              |
+| r     | rotate-window                                     | CTRL-O       | CTRL-W_R                              | Rotate            |
+| s     | split-window -v                                   | "            | CTRL-W_s CTRL-W_CTRL-S :sp :split     | Split             |
+| t     | select-pane -t:.1                                 | None         | CTRL-W_t CTRL-W_CTRL-T                | Top-left          |
+| u     | choose-tree                                       | None         | None                                  | Unfold            |
+| v     | split-window -h                                   | %            | CTRL-W_v CTRL-W_CTRL-V :vs :vsplit    | Vertical          |
+| w     | select-pane -t :.+                                | o            | CTRL-W_w CTRL-W_CTRL-W                | Window            |
+| x     | swap-pane -D                                      | }            | CTRL-W_x CTRL-W_CTRL-X                | eXchange          |
+| y     | choose-buffer                                     | None         | None                                  | Yank              |
+| z     | resize-pane -Z                                    | z            | CTRL-W_o CTRL-W_CTRL-O :on :only      | Zoom              |
+
+</details>
+
 ## Vim kata
 
 <details>
@@ -473,7 +528,7 @@ Click the black triangle to see the Vim kata
 
 </details>
 
-## Web kata
+## Browser kata
 
 TODO
 
@@ -1092,9 +1147,6 @@ Play `.cast` files
 
 ### ffmpeg
 Play audio files (`.mp3`, `.aac`, or `.ogg`)
-
-### tmux
-Run scripts that split the terminal into windows
 
 ### miniconda
 Install command line tools along with Python and R
