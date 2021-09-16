@@ -8,7 +8,6 @@ emacs/readline shortcuts.
 To be honest, these steps are just for situations in which we cannot use Karabiner.
 
 Modifier key icons:
-  ƒ: Function
   ⌃: Control
   ⌥: Option
   ⇧: Shift
@@ -24,10 +23,6 @@ Finder modes:
 
 | Combo | Default | Action (Mode)                                   |
 | ---   | ---     | ---                                             |
-| ƒ⌃b   | ƒ←      | Scroll to top (⌘1,⌘2,⌘3), Scroll to start (⌘4)  |
-| ƒ⌃f   | ƒ→      | Scroll to bottom (⌘1,⌘2,⌘3), Scroll to end (⌘4) |
-| ƒ⌃n   | ƒ↓      | Scroll down (⌘1,⌘2,⌘3)                          |
-| ƒ⌃p   | ƒ↑      | Scroll up (⌘1,⌘2,⌘3)                            |
 | ⌃b    | ←       | Go left (⌘1,⌘3,⌘4), Fold directory (⌘2)         |
 | ⌃f    | →       | Go right (⌘1,⌘3,⌘4), Unfold directory (⌘2)      |
 | ⌃n    | ↓       | Go down (⌘1,⌘2,⌘3,⌘4)                           |
